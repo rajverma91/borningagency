@@ -76,7 +76,7 @@ export default function Footer() {
           className="font-black text-white/10 whitespace-nowrap select-none"
           style={{ fontSize: 'clamp(60px, 16vw, 160px)', lineHeight: 0.82, paddingLeft: '1.5rem' }}
         >
-          BORNING AGENCY
+          BORNING AGENCY 
         </p>
       </div>
 
