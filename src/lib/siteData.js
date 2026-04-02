@@ -59,26 +59,52 @@ export const services = [
   {
     number: "01",
     title: "Discover",
-    description: "We begin by understanding your business model, market positioning, audience, and growth objectives. This stage helps us identify gaps, opportunities, and the right growth direction.",
-    items: ["Product & UX Design", "UI Design for Web & Mobile", "Design Systems", "Prototyping & Interaction Design"]
+    description: `We begin by understanding your business model, market positioning, audience, and growth objectives.
+
+This stage helps us identify gaps, opportunities, and the right growth direction.`,
+    items: [
+      "Product & UX Design",
+      "UI Design for Web & Mobile",
+      "Design Systems",
+      "Prototyping & Interaction Design"
+    ]
   },
   {
     number: "02",
     title: "Strategise",
-    description: "Once clarity is established, we create a focused roadmap that combines marketing, AI, PR, and web execution into one structured system. Every action is aligned to business outcomes.",
-    items: ["Framer Development", "Web Development", "CMS Integrations", "Performance Optimization"]
+    description: `Once clarity is established, we create a focused roadmap that combines marketing, AI, PR, and web execution into one structured system.
+
+Every action is aligned to business outcomes.`,
+    items: [
+      "Framer Development",
+      "Web Development",
+      "CMS Integrations",
+      "Performance Optimization"
+    ]
   },
   {
     number: "03",
     title: "Execute",
-    description: "From campaigns and PR outreach to AI systems and website development, we build and launch with precision, speed, and quality.",
-    items: ["Brand Identity Design", "Visual Systems & Guidelines", "Brand Messaging & Tone", "Digital Brand Assets"]
+    description: `From campaigns and PR outreach to AI systems and website development, we build and launch with precision, speed, and quality.`,
+    items: [
+      "Brand Identity Design",
+      "Visual Systems & Guidelines",
+      "Brand Messaging & Tone",
+      "Digital Brand Assets"
+    ]
   },
   {
     number: "04",
     title: "Optimise",
-    description: "Growth does not stop at launch. We continuously refine campaigns, systems, and conversion paths to improve performance over time.",
-    items: ["Brand Strategy", "Website Strategy & Positioning", "User Research & Insights", "Information Architecture"]
+    description: `Growth does not stop at launch.
+
+We continuously refine campaigns, systems, and conversion paths to improve performance over time.`,
+    items: [
+      "Brand Strategy",
+      "Website Strategy & Positioning",
+      "User Research & Insights",
+      "Information Architecture"
+    ]
   }
 ];
 

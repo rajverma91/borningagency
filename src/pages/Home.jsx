@@ -3,7 +3,7 @@ import HeroSection from '../components/home/HeroSection';
 import FeaturedWork from '../components/home/FeaturedWork';
 import TrustSection from '../components/home/TrustSection';
 import ServicesSection from '../components/home/ServicesSection';
-import PricingSection from '../components/home/PricingSection';
+// import PricingSection from '../components/home/PricingSection';
 import TestimonialsSection from '../components/home/TestimonialsSection';
 import FAQSection from '../components/home/FAQSection';
 import BlogPreview from '../components/home/BlogPreview';
@@ -21,7 +21,7 @@ export default function Home() {
       <FeaturedWork />
       <TrustSection />
       <ServicesSection />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <TestimonialsSection />
       <FAQSection />
       <BlogPreview />

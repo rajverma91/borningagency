@@ -39,9 +39,12 @@ function ServiceCard({ service, image, index, total }) {
               <h3 className="text-4xl md:text-5xl font-black tracking-tight mb-4">
                 {service.title}
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed mb-6 max-w-xs">
-                {service.description}
-              </p>
+           
+              {service.description.split("\n\n").map((para, i) => (
+  <p key={i} className="text-sm text-white/50 leading-relaxed mb-6 max-w-xs">
+    {para}
+  </p>
+))}
               <div className="flex flex-wrap gap-2">
                 {service.items.map((item) => (
                   <span
@@ -81,7 +84,7 @@ export default function ServicesSection() {
       </div>
 
       {/* Cards container — tall enough to enable sticky scroll */}
-      <div className="relative" style={{ paddingBottom: '20vh' }}>
+      <div className="relative" style={{ paddingBottom: '0vh' }}>
         {services.map((service, i) => (
           <ServiceCard
             key={service.number}
@@ -91,6 +94,7 @@ export default function ServicesSection() {
             total={services.length}
           />
         ))}
+        
       </div>
     </section>
   );
