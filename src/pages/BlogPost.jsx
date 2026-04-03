@@ -8,7 +8,7 @@ export default function BlogPost() {
   const { id } = useParams();
   const post = blogPosts.find((p) => p.id === id);
 
-  if (!post) {
+  if (!post) { 
     return (
       <div className="pt-40 pb-24 px-6 md:px-10 max-w-[800px] mx-auto text-center">
         <h1 className="text-4xl font-black mb-4">Post Not Found</h1>
