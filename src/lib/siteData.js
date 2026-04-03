@@ -114,21 +114,21 @@ export const testimonials = [
     role: "Operations Manager, Startup",
     quote:
       "Borning transformed our scattered marketing efforts into one sharp and scalable system. Their strategic thinking and execution quality stood out from day one.",
-    image: "../../src/img/b12.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
   },
   {
     name: "Emily Parker",
     role: "Growth Lead, SaaS Company",
     quote:
       "Their AI workflows and landing page systems significantly improved our lead response time and overall conversion.",
-    image: "../../src/img/b13.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png",
   },
   {
     name: "John Smith",
     role: "Founder",
     quote:
       "They think like business operators, not just marketers. Every recommendation was tied to outcomes.",
-    image: "../../src/img/b14.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png",
   },
 ];
 export const faqItems = [
@@ -144,37 +144,37 @@ export const blogPosts = [
     id: "scalable-design-systems",
     title: "Why Scalable Design Systems Matter as Your Business Grows",
     date: "Jan 20, 2026",
-    image: "../../src/img/b12.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png"
   },
   {
     id: "websites-that-convert",
     title: "Designing Websites That Convert Without Sacrificing Clarity",
     date: "Jan 12, 2026",
-    image: "../../src/img/b13.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png"
   },
   {
     id: "high-performing-products",
     title: "A Practical Approach to Building High-Performing Digital Products",
     date: "Dec 3, 2025",
-     image: "../../src/img/b14.png"
+     image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png"
   },
   {
     id: "thoughtful-ux",
     title: "How Thoughtful UX Reduces Support Costs and Increases Retention",
     date: "Nov 20, 2025",
-    image: "../../src/img/b12.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png"
   },
   {
     id: "brand-expression",
     title: "Balancing Brand Expression with Usability in Digital Design",
     date: "Nov 2, 2025",
-    image: "../../src/img/b13.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png"
   },
   {
     id: "concept-to-launch",
     title: "From Concept to Launch: Designing with Execution in Mind",
     date: "Nov 1, 2025",
-    image: "../../src/img/b14.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png"
   }
 ];
 
