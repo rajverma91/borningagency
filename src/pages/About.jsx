@@ -26,7 +26,9 @@ export default function About() {
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4">
               WHO WE ARE
             </h1>
-            <ImageGallery />
+            <div className='overflow-hidden '>
+              <ImageGallery />
+            </div>
             <div className="h-px bg-white/30 w-full mb-12" />
           </motion.div>
 

@@ -2,10 +2,11 @@
 
 
 const images = [
-   "../src/img/13.jpg",
-  "../src/img/14.jpg",
-  "../src/img/15.jpg",
-  "../src/img/16.jpg",
+   "https://framerusercontent.com/images/kFPS1Qb6vl1AWJTvqXVAT5vhxWY.png",
+  "https://framerusercontent.com/images/BReNkikWaCJZF2Bj04jLXGn26w.png",
+  "https://framerusercontent.com/images/MI3z40IAAs8YpJ39EtPI479jW4A.png",
+  "https://framerusercontent.com/images/DLrAVWztrtoKQ8NSNMg1Uaiurw.png",
+  "https://framerusercontent.com/images/82Sov4wFOHIoNVFxGYqBQSAX5s.png",
 ];
 
 export default function ImageGallery() {
