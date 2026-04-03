@@ -40,12 +40,58 @@ export default function About() {
           >
             <div />
             <p className="text-2xl md:text-3xl font-bold leading-snug tracking-tight">
-              Elio is a design studio shaping clear, scalable digital experiences for growing brands.
+             A focused growth partner for brands that need sharper systems and stronger outcomes.
+
             </p>
           </motion.div>
         </div>
       </section>
+{/* About Content Section */}
+<section className="py-20 md:py-28 px-6 md:px-10 max-w-[1400px] mx-auto">
+  <AnimatedSection>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
+      
+      {/* Left Side - Heading */}
+      <div>
+        <p className="text-sm uppercase tracking-widest text-muted-foreground mb-4">
+          Who We Are
+        </p>
 
+        <h2 className="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
+          A focused growth partner for brands that need sharper systems and stronger outcomes.
+        </h2>
+      </div>
+
+      {/* Right Side - Description */}
+      <div className="space-y-6 text-muted-foreground leading-relaxed text-base md:text-lg">
+        <p>
+          Borning Agency is built for founder-led brands, ambitious service businesses, and modern operators who need more than disconnected marketing efforts.
+        </p>
+
+        <p>
+          We bring together AI systems, digital marketing, PR visibility, and conversion-led web execution under one clear growth framework. Our approach is designed to help businesses strengthen their positioning, improve lead flow, and create a digital presence that converts with intent.
+        </p>
+
+        <p>
+          Unlike traditional agencies with bloated service menus, we focus only on what drives measurable business outcomes — clarity, credibility, and scalable growth.
+        </p>
+
+        <p>
+          We work as a strategic partner, combining commercial thinking with clean execution to help brands move faster, look sharper, and scale with confidence.
+        </p>
+      </div>
+    </div>
+  </AnimatedSection>
+
+  {/* Supporting Statement */}
+  <AnimatedSection delay={0.2}>
+    <div className="mt-16 border-t pt-10">
+      <p className="text-center text-lg md:text-xl font-semibold tracking-tight">
+        More operator than showroom. More outcomes than activity.
+      </p>
+    </div>
+  </AnimatedSection>
+</section>
       {/* Motto */}
       <section className="py-16 md:py-24 px-6 md:px-10 max-w-[1400px] mx-auto">
         <AnimatedSection>
@@ -69,49 +115,9 @@ export default function About() {
         </AnimatedSection>
       </section>
 
-      {/* Awards */}
-      <section className="py-16 md:py-24 px-6 md:px-10 max-w-[1400px] mx-auto">
-        <SectionTitle>AWARDS</SectionTitle>
-        <div className="space-y-0">
-          {awards.map((award, i) => (
-            <AnimatedSection key={award.title} delay={i * 0.1}>
-              <div className="py-8 border-t border-border grid grid-cols-1 md:grid-cols-12 gap-4 items-start">
-                <div className="md:col-span-5">
-                  <h3 className="text-lg font-bold">{award.title}</h3>
-                </div>
-                <div className="md:col-span-5">
-                  <p className="text-sm text-muted-foreground">{award.description}</p>
-                </div>
-                <div className="md:col-span-2 text-right">
-                  <span className="text-2xl font-black text-muted-foreground/30">{award.year}</span>
-                </div>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
-      </section>
+ 
 
-      {/* Team */}
-      <section className="py-16 md:py-24 px-6 md:px-10 max-w-[1400px] mx-auto">
-        <SectionTitle>MEET THE TEAM</SectionTitle>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {teamMembers.map((member, i) => (
-            <AnimatedSection key={member.name} delay={i * 0.08}>
-              <div className="group">
-                <div className="overflow-hidden rounded-xl mb-4">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full aspect-[16/9] object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-                <h4 className="text-sm font-bold">{member.name}</h4>
-                <p className="text-xs text-muted-foreground">{member.role}</p>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
-      </section>
+     
     </div>
   );
 }

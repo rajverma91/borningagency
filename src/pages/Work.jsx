@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { projects } from '@/lib/siteData';
+import { projectspage } from '@/lib/siteData';
 import AnimatedSection from '../components/shared/AnimatedSection';
 
 export default function Work() {
@@ -17,9 +17,14 @@ export default function Work() {
         </h1>
         <div className="h-px bg-foreground w-full mb-16" />
       </motion.div>
+       <AnimatedSection delay={0.2}>
+              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed">
+              A curated showcase of how Borning Agency builds sharper systems, stronger visibility, and measurable growth outcomes for modern brands.
+              </p>
+            </AnimatedSection>
 
       <div className="space-y-16 md:space-y-24">
-        {projects.map((project, i) => (
+        {projectspage.map((project, i) => (
           <AnimatedSection key={project.id} delay={i * 0.1}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start group cursor-pointer">
               <div className="order-2 md:order-1">
@@ -41,11 +46,11 @@ export default function Work() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
             </div>
-            {i < projects.length - 1 && (
+            {i < projectspage.length - 1 && (
               <div className="h-px bg-border mt-16 md:mt-24" />
             )}
           </AnimatedSection>

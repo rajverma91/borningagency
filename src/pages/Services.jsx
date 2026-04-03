@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { services } from '@/lib/siteData';
+import { servicespage } from '@/lib/siteData';
 import AnimatedSection from '../components/shared/AnimatedSection';
 import { Link } from 'react-router-dom';
 
@@ -20,14 +20,14 @@ export default function Services() {
 
       <AnimatedSection delay={0.2}>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed">
-          From strategy to execution, we deliver end-to-end design and development services built to help your business grow with clarity and purpose.
+        At Borning Agency, we combine strategy, technology, and execution to build growth systems that help brands scale with clarity, credibility, and commercial impact.
         </p>
       </AnimatedSection>
 
       <div className="space-y-0">
-        {services.map((service, i) => (
+        {servicespage.map((service, i) => (
           <AnimatedSection key={service.number} delay={i * 0.1}>
-            <Link to={`/services/${service.title.toLowerCase()}`} className="block py-12 md:py-16 border-t border-border group cursor-pointer hover:opacity-80 transition-opacity">
+            <Link className="block py-12 md:py-16 border-t border-border group cursor-pointer hover:opacity-80 transition-opacity">
               <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10">
                 <div className="md:col-span-1">
                   <span className="text-4xl md:text-5xl font-black text-primary/20">{service.number}</span>
@@ -45,7 +45,7 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> 
               </div>
             </Link>
           </AnimatedSection>

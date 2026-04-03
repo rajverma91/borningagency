@@ -55,6 +55,44 @@ Every web build is designed with user trust, messaging clarity, and lead capture
   }
 ];
 
+export const projectspage = [
+  {
+    id: "ai-growth-systems",
+    title: "AI Growth Systems",
+    description: "Designed and deployed intelligent AI-powered workflows that streamline lead management, automate customer journeys, and improve operational efficiency. This helps businesses move faster, respond quicker, and convert better.",
+    tags: ["AI Systems", "Automation ", "Lead Flow"],
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    layout: "tall"
+  },
+  {
+    id: "digital-growth-marketing",
+    title: "Digital Growth Marketing",
+    description: `Built a performance-led acquisition system with strategic paid campaigns, funnel optimisation, and conversion-focused landing pages designed to improve lead quality and support scalable business growth.
+`,
+    tags: ["Growth Marketing", "Funnels", "Paid Strategy"],
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png",
+    layout: "wide"
+  },
+  {
+    id: "pr-founder-visibility",
+    title: "PR & Founder Visibility",
+    description: `Created authority-led PR campaigns focused on founder storytelling, media outreach, and strategic placements to strengthen brand credibility, trust, and market visibility.
+`,
+    tags: ["PR ", "Media Outreach" , "Founder Branding"],
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    layout: "tall"
+  },
+  {
+    id: "web-landing-page-development",
+    title: "Web & Landing Page Development",
+    description: `Designed premium websites and high-converting landing pages built for trust, clear messaging, and stronger lead capture performance, fully aligned with marketing and PR campaigns.
+`,
+    tags: ["Web Development", "UX ", "Landing Pages"],
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    layout: "wide"
+  },
+
+];
 export const services = [
   {
     number: "01",
@@ -108,6 +146,58 @@ We continuously refine campaigns, systems, and conversion paths to improve perfo
   }
 ];
 
+
+export const servicespage = [
+  {
+    number: "01",
+    title: "AI Marketing Systems",
+    description: `We build intelligent AI-powered workflows and automation systems that streamline lead flow, customer journeys, and internal operations. From automated lead routing to smart follow-up systems, our solutions help businesses reduce manual effort and scale faster.`,
+    items: [
+      "Lead Automation Workflows",
+      "Customer Journey Systems",
+      "AI Agent Integrations",
+      "Internal Process Automation",
+      "Smart CRM Workflows",
+    ]
+  },
+  {
+    number: "02",
+    title: "Digital Marketing & Growth",
+    description: `Our growth marketing services focus on driving measurable results through performance campaigns, customer acquisition strategies, and funnel optimisation. We help businesses generate high-quality leads and scale revenue with data-driven execution.`,
+    items: [
+      "Paid Performance Campaigns",
+      "Customer Acquisition Strategy",
+      "Funnel Optimisation",
+      "Lead Generation Systems",
+      "Conversion Rate Optimisation",
+    ]
+  },
+  {
+    number: "03",
+    title: "PR & Media Placement",
+    description: `We help brands and founders build authority through strategic storytelling, media outreach, and high-credibility placements. Our PR approach strengthens trust, visibility, and market positioning.`,
+    items: [
+      "Founder Positioning",
+      "Media Outreach",
+      "Narrative Building",
+      "Authority-Led Placements",
+      "Brand Credibility Strategy",
+    ]
+  },
+  {
+    number: "04",
+    title: "Web & Landing Page Development",
+    description: `We design premium websites and landing pages built for performance. Every project focuses on clarity, trust, and conversion, ensuring your digital presence drives real business growth.`,
+    items: [
+      "Business Websites",
+      "Landing Pages",
+      "Campaign Microsites",
+      "Conversion-Focused UX",
+      "SEO-Friendly Structure",
+    ]
+  }
+];
+
 export const testimonials = [
   {
     name: "Sarah Collins",
@@ -141,40 +231,36 @@ export const faqItems = [
 
 export const blogPosts = [
   {
-    id: "scalable-design-systems",
-    title: "Why Scalable Design Systems Matter as Your Business Grows",
+    id: "ai-marketing-systems-2026",
+    title: "How AI Marketing Systems Are Transforming Lead Generation in 2026",
+    description: "Discover how intelligent workflows, automation, and AI-driven customer journeys are helping businesses improve response speed, lead quality, and conversion performance.",
     date: "Jan 20, 2026",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    cta: "Read More →"
   },
   {
-    id: "websites-that-convert",
-    title: "Designing Websites That Convert Without Sacrificing Clarity",
+    id: "founder-led-pr-trust",
+    title: "Why Founder-Led PR Builds Stronger Brand Trust",
+    description: "Learn how strategic storytelling, media placements, and founder visibility campaigns strengthen authority, market credibility, and long-term business growth.",
     date: "Jan 12, 2026",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png",
+    cta: "Read More →"
   },
   {
-    id: "high-performing-products",
-    title: "A Practical Approach to Building High-Performing Digital Products",
+    id: "website-conversion-elements",
+    title: "5 Website Elements That Increase Lead Conversion",
+    description: "From landing page structure to CTA placement and trust signals, explore the essential components of a high-converting business website.",
     date: "Dec 3, 2025",
-     image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png",
+    cta: "Read More →"
   },
   {
-    id: "thoughtful-ux",
-    title: "How Thoughtful UX Reduces Support Costs and Increases Retention",
+    id: "digital-growth-strategies",
+    title: "Digital Growth Strategies Every Modern Brand Needs",
+    description: "A practical guide to performance marketing, funnel optimisation, and acquisition systems designed for measurable business outcomes.",
     date: "Nov 20, 2025",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png"
-  },
-  {
-    id: "brand-expression",
-    title: "Balancing Brand Expression with Usability in Digital Design",
-    date: "Nov 2, 2025",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png"
-  },
-  {
-    id: "concept-to-launch",
-    title: "From Concept to Launch: Designing with Execution in Mind",
-    date: "Nov 1, 2025",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png"
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    cta: "Read More →"
   }
 ];
 

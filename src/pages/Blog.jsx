@@ -13,11 +13,16 @@ export default function Blog() {
         transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4">
-          NEWS AND VIEWS
+      Ideas, strategies, and systems shaping modern brand growth.
+
         </h1>
         <div className="h-px bg-foreground w-full mb-16" />
       </motion.div>
-
+ <AnimatedSection delay={0.2}>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed">
+       Explore expert insights on AI marketing systems, digital growth, PR visibility, website conversion, and scalable business strategies. Our content is built to help founders and modern businesses stay ahead with actionable ideas and smarter execution.
+        </p>
+      </AnimatedSection>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
         {blogPosts.map((post, i) => (
           <AnimatedSection key={post.id} delay={i * 0.08}>
