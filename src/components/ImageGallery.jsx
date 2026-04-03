@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 
 const images = [
   "/images/img1.jpg",
@@ -18,7 +18,7 @@ export default function ImageGallery() {
             key={index}
             className="relative w-[320px] h-[220px] rounded-2xl overflow-hidden flex-shrink-0"
           >
-            <Image
+            <img
               src={src}
               alt={`gallery-${index}`}
               fill
