@@ -123,7 +123,7 @@ export default function Contact() {
                 />
 
                 <p className="text-xs text-muted-foreground">
-                  By submitting, you agree to our Terms & Privacy Policy.
+                  By submitting, you agree to our Terms & Privacy Policy.    
                 </p>
 
                 <Button
