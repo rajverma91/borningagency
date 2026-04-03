@@ -114,21 +114,21 @@ export const testimonials = [
     role: "Operations Manager, Startup",
     quote:
       "Borning transformed our scattered marketing efforts into one sharp and scalable system. Their strategic thinking and execution quality stood out from day one.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: "../../src/img/b12.png",
   },
   {
     name: "Emily Parker",
     role: "Growth Lead, SaaS Company",
     quote:
       "Their AI workflows and landing page systems significantly improved our lead response time and overall conversion.",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    image: "../../src/img/b13.png",
   },
   {
     name: "John Smith",
     role: "Founder",
     quote:
       "They think like business operators, not just marketers. Every recommendation was tied to outcomes.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "../../src/img/b14.png",
   },
 ];
 export const faqItems = [
@@ -144,47 +144,47 @@ export const blogPosts = [
     id: "scalable-design-systems",
     title: "Why Scalable Design Systems Matter as Your Business Grows",
     date: "Jan 20, 2026",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/042292822_generated_8a0fa979.png"
+    image: "../../src/img/b12.png"
   },
   {
     id: "websites-that-convert",
     title: "Designing Websites That Convert Without Sacrificing Clarity",
     date: "Jan 12, 2026",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/144973296_generated_83c7a53b.png"
+    image: "../../src/img/b13.png"
   },
   {
     id: "high-performing-products",
     title: "A Practical Approach to Building High-Performing Digital Products",
     date: "Dec 3, 2025",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/a75e98697_generated_272a9656.png"
+     image: "../../src/img/b14.png"
   },
   {
     id: "thoughtful-ux",
     title: "How Thoughtful UX Reduces Support Costs and Increases Retention",
     date: "Nov 20, 2025",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/c39454814_generated_00d3524f.png"
+    image: "../../src/img/b12.png"
   },
   {
     id: "brand-expression",
     title: "Balancing Brand Expression with Usability in Digital Design",
     date: "Nov 2, 2025",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/cd864a824_generated_d0472669.png"
+    image: "../../src/img/b13.png"
   },
   {
     id: "concept-to-launch",
     title: "From Concept to Launch: Designing with Execution in Mind",
     date: "Nov 1, 2025",
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/659f65a46_generated_4f0d6f20.png"
+    image: "../../src/img/b14.png"
   }
 ];
 
 export const teamMembers = [
-  { name: "Alex Morgan", role: "Founder & Creative Director", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/b0be471b0_generated_cd33ddbe.png" },
-  { name: "Lena Fischer", role: "Product Designer", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/d27d5293b_generated_71f0674e.png" },
-  { name: "Noah Bennett", role: "Brand Strategist", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/179819bed_generated_1921e6ab.png" },
-  { name: "Ravi Patel", role: "Web Designer & Developer", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/dc44a824d_generated_c1b1be87.png" },
-  { name: "Amara Williams", role: "Motion Designer", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/d9bd2eb6b_generated_6002b119.png" },
-  { name: "Mila Novak", role: "Visual & Graphic Designer", image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/321903f7b_generated_ddbefa7f.png" }
+  { name: "Alex Morgan", role: "Founder & Creative Director", image: "../../src/img/t12.png" },
+  { name: "Lena Fischer", role: "Product Designer", image: "../../src/img/t13.png" },
+  { name: "Noah Bennett", role: "Brand Strategist", image: "../../src/img/t14.png" },
+  { name: "Ravi Patel", role: "Web Designer & Developer", image: "../../src/img/t15.png" },
+  { name: "Amara Williams", role: "Motion Designer", image: "../../src/img/t16.png" },
+  { name: "Mila Novak", role: "Visual & Graphic Designer", image: "../../src/img/t17.png" }
 ];
 
 export const awards = [

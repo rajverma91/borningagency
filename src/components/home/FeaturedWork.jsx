@@ -9,11 +9,12 @@ import ProjectsGrid from './ProjectsGrid';
 // Reference layout: first project tall-left, second wide-right, third tall-left, fourth wide-right
 // Using real Framer image URLs
 const projectImages = [
-  "https://framerusercontent.com/images/gT85FOFg4tegqYlpO1nQPV4jHaQ.png",
-  "https://framerusercontent.com/images/P1hRHBt6kWFY0ow11TlWtsEStU.png",
-  "https://framerusercontent.com/images/AoFHVQkJO0NeFu9DIiLHQTVlQ.png",
-  "https://framerusercontent.com/images/9z7qfSWBrueySENldAQr2dGle8.png",
-   "https://framerusercontent.com/images/P1hRHBt6kWFY0ow11TlWtsEStU.png",
+"../../src/img/12.jpg",
+  "../src/img/13.jpg",
+  "../src/img/14.jpg",
+  "../src/img/15.jpg",
+  "../src/img/16.jpg",
+
 ];
 
 export default function FeaturedWork() {

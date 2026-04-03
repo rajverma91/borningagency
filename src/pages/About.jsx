@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { teamMembers, awards } from '@/lib/siteData';
 import AnimatedSection from '../components/shared/AnimatedSection';
 import SectionTitle from '../components/shared/SectionTitle';
+import ImageGallery from "../components/ImageGallery";
 
 const stats = [
   { value: "50", suffix: "+", label: "Years of experience" },
@@ -25,6 +26,7 @@ export default function About() {
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4">
               WHO WE ARE
             </h1>
+            <ImageGallery />
             <div className="h-px bg-white/30 w-full mb-12" />
           </motion.div>
 

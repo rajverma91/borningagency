@@ -3,10 +3,10 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { services } from '@/lib/siteData';
 
 const serviceImages = [
-  "https://framerusercontent.com/images/gT85FOFg4tegqYlpO1nQPV4jHaQ.png",
-  "https://framerusercontent.com/images/P1hRHBt6kWFY0ow11TlWtsEStU.png",
-  "https://framerusercontent.com/images/AoFHVQkJO0NeFu9DIiLHQTVlQ.png",
-  "https://framerusercontent.com/images/9z7qfSWBrueySENldAQr2dGle8.png",
+  "../src/img/w12.png",
+  "../src/img/w16.png",
+  "../src/img/w14.png",
+  "../src/img/w15.png",
 ];
 
 function ServiceCard({ service, image, index, total }) {

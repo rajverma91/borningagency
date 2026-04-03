@@ -4,9 +4,9 @@ import { blogPosts } from '@/lib/siteData';
 import AnimatedSection from '../shared/AnimatedSection';
 
 const blogImages = [
-  "https://framerusercontent.com/images/eXxZ82Qbjf12Sy9yHde575AYtuk.png",
-  "https://framerusercontent.com/images/RaHVn1BQLDJ9XQAdregZK3p1CXY.png",
-  "https://framerusercontent.com/images/9r64GmClFPS0M46NaS1cqQggO8.png",
+  "../../src/img/b12.png",
+  "../../src/img/b13.png",
+  "../../src/img/b14.png",
 ];
 
 export default function BlogPreview() {

@@ -130,7 +130,12 @@ html {
   background: url("../src/img/modern-equipped-computer-lab.jpg") center/cover no-repeat;
   z-index: 1;
 }
-
+.orange,.dark {
+    width: 82%;
+}
+.light {
+    width: 94%;
+}
 /* Overlay (dark + orange glow like screenshot) */
 .hero-overlay {
   position: absolute;
