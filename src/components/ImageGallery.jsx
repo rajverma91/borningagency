@@ -2,11 +2,10 @@
 
 
 const images = [
-  "/images/img1.jpg",
-  "/images/img2.jpg",
-  "/images/img3.jpg",
-  "/images/img4.jpg",
-  "/images/img5.jpg",
+   "../src/img/13.jpg",
+  "../src/img/14.jpg",
+  "../src/img/15.jpg",
+  "../src/img/16.jpg",
 ];
 
 export default function ImageGallery() {
