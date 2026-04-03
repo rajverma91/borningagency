@@ -9,11 +9,11 @@ import ProjectsGrid from './ProjectsGrid';
 // Reference layout: first project tall-left, second wide-right, third tall-left, fourth wide-right
 // Using real Framer image URLs
 const projectImages = [
-  "../src/img/12.jpg",
-  "../src/img/13.jpg",
-  "../src/img/14.jpg",
-  "../src/img/15.jpg",
-  "../src/img/16.jpg",
+  "../../src/img/12.jpg",
+  "../../src/img/13.jpg",
+  "../../src/img/14.jpg",
+  "../../src/img/15.jpg",
+  "../../src/img/16.jpg",
 
 ];
 
