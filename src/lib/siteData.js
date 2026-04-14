@@ -4,7 +4,7 @@ export const projects = [
     title: "What We Build",
     description: "Our services are designed to work independently, but their real strength lies in how they come together as one cohesive growth system.",
     tags: ["Strategy", "Visual Identity", "Branding"],
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/259a7d015_generated_e59c1581.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work01_y1xhwz.jpg",
     layout: "tall"
   },
   {
@@ -61,7 +61,7 @@ export const projectspage = [
     title: "AI Growth Systems",
     description: "Designed and deployed intelligent AI-powered workflows that streamline lead management, automate customer journeys, and improve operational efficiency. This helps businesses move faster, respond quicker, and convert better.",
     tags: ["AI Systems", "Automation ", "Lead Flow"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are01_wjulhk.jpg",
     layout: "tall"
   },
   {
@@ -70,7 +70,7 @@ export const projectspage = [
     description: `Built a performance-led acquisition system with strategic paid campaigns, funnel optimisation, and conversion-focused landing pages designed to improve lead quality and support scalable business growth.
 `,
     tags: ["Growth Marketing", "Funnels", "Paid Strategy"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are02_hsgpas.jpg",
     layout: "wide"
   },
   {
@@ -79,7 +79,7 @@ export const projectspage = [
     description: `Created authority-led PR campaigns focused on founder storytelling, media outreach, and strategic placements to strengthen brand credibility, trust, and market visibility.
 `,
     tags: ["PR ", "Media Outreach" , "Founder Branding"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are03_yxml5b.jpg",
     layout: "tall"
   },
   {
@@ -88,7 +88,7 @@ export const projectspage = [
     description: `Designed premium websites and high-converting landing pages built for trust, clear messaging, and stronger lead capture performance, fully aligned with marketing and PR campaigns.
 `,
     tags: ["Web Development", "UX ", "Landing Pages"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are04_rx0lch.jpg",
     layout: "wide"
   },
 
@@ -235,7 +235,7 @@ export const blogPosts = [
     title: "How AI Marketing Systems Are Transforming Lead Generation in 2026",
     description: "Discover how intelligent workflows, automation, and AI-driven customer journeys are helping businesses improve response speed, lead quality, and conversion performance.",
     date: "Jan 20, 2026",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194793/blogsingle01_tbmfbc.jpg",
     cta: "Read More →"
   },
   {
@@ -243,7 +243,7 @@ export const blogPosts = [
     title: "Why Founder-Led PR Builds Stronger Brand Trust",
     description: "Learn how strategic storytelling, media placements, and founder visibility campaigns strengthen authority, market credibility, and long-term business growth.",
     date: "Jan 12, 2026",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b13_jule24.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194655/blogsingle02_wwuzhy.jpg",
     cta: "Read More →"
   },
   {
@@ -251,7 +251,7 @@ export const blogPosts = [
     title: "5 Website Elements That Increase Lead Conversion",
     description: "From landing page structure to CTA placement and trust signals, explore the essential components of a high-converting business website.",
     date: "Dec 3, 2025",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/b14_ympq1h.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194656/blogsingle03_ezb5q1.jpg",
     cta: "Read More →"
   },
   {
@@ -259,7 +259,7 @@ export const blogPosts = [
     title: "Digital Growth Strategies Every Modern Brand Needs",
     description: "A practical guide to performance marketing, funnel optimisation, and acquisition systems designed for measurable business outcomes.",
     date: "Nov 20, 2025",
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227384/b12_y27bk7.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194655/blogsingle04_pp3wb4.jpg",
     cta: "Read More →"
   }
 ];

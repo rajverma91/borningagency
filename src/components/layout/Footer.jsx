@@ -71,14 +71,15 @@ export default function Footer() {
       </div>
 
       {/* Giant watermark wordmark */}
-      <div className="w-full m-auto text-center overflow-hidden leading-none">
-        <p
-          className="font-black text-white/10 whitespace-nowrap select-none"
-          style={{ fontSize: 'clamp(60px, 16vw, 160px)', lineHeight: 0.82, paddingLeft: '1.5rem' }}
-        >
-          BORNING AGENCY 
-        </p>
-      </div>
+     <div className="w-full m-auto text-center overflow-hidden leading-none">
+  <p className="
+    font-black text-white/10 whitespace-nowrap select-none
+    text-[clamp(60px,16vw,160px)]
+    max-[1500px]:text-[clamp(50px,12vw,120px)]
+  ">
+    BORNING AGENCY
+  </p>
+</div>
 
       {/* Bottom bar */}
       <div className="px-10 md:px-14 py-5 flex flex-col md:flex-row justify-between items-center gap-2 border-t border-white/5">

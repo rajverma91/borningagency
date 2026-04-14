@@ -2,15 +2,15 @@
 
 
 const images = [
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227385/w12_d4m3b1.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227385/w16_rywiwf.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227385/w13_ghnd19.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1775227383/w15_qkkvkv.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are01_wjulhk.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are02_hsgpas.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are03_yxml5b.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are04_rx0lch.jpg",
 ];
 
 export default function ImageGallery() {
   return (
-    <div className="w-full overflow-hidden"> ">
+    <div className="w-full overflow-hidden"> 
       <div className="flex gap-6 px-4 py-6 min-w-max">
         {images.map((src, index) => (
           <div

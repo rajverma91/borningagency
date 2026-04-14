@@ -53,7 +53,7 @@ export default function Contact() {
                 <Mail className="text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-semibold">info@yourcompany.com</p>
+                  <p className="font-semibold">info@borningagency.com</p>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                 <Phone className="text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-semibold">+91 98765 43210</p>
+                  <p className="font-semibold">+91 99885 32819</p>
                 </div>
               </div>
             </div>
