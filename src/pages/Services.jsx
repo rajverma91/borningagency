@@ -52,18 +52,22 @@ export default function Services() {
         ))}
       </div>
 
-      <AnimatedSection delay={0.3}>
-        <div className="mt-16 pt-16 border-t border-border text-center">
-          <h3 className="text-2xl md:text-3xl font-black tracking-tight mb-4">Ready to start?</h3>
-          <p className="text-muted-foreground mb-8">Let's discuss how we can help your business grow.</p>
-          <Link
-            to="/contact"
-            className="inline-block bg-primary text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
-          >
-            Get in Touch
-          </Link>
-        </div>
-      </AnimatedSection>
+    <AnimatedSection delay={0.3}>
+  <div className="mt-16 pt-16 border-t border-border text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-12 rounded-2xl">
+    <h3 className="text-2xl md:text-3xl font-black tracking-tight mb-4">
+      Ready to start?
+    </h3>
+    <p className="mb-8">
+      Let's discuss how we can help your business grow.
+    </p>
+    <Link
+      to="/contact"
+      className="inline-block bg-white text-black px-8 py-3.5 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors"
+    >
+      Get in Touch
+    </Link>
+  </div>
+</AnimatedSection>
     </div>
   );
 }
