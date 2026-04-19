@@ -18,6 +18,8 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import SmoothScroll from "./smoothscroll/SmoothScroll";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -54,6 +56,8 @@ const AuthenticatedApp = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+<Route path="/terms-of-use" element={<Terms />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>

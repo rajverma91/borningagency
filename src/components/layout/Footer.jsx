@@ -10,8 +10,18 @@ const pageLinks = [
   { label: "Contact", path: "/contact" },
 ];
 
-const socialLinks = ["Instagram", "X Twitter", "Dribbble", "Behance"];
-const legalLinks = ["Privacy", "Terms of Use", "404"];
+
+const socialLinks = [
+  { name: "Instagram", url: "https://instagram.com" },
+  { name: "X Twitter", url: "https://x.com" },
+  { name: "Dribbble", url: "https://dribbble.com" },
+  { name: "Behance", url: "https://behance.net" },
+];
+
+const legalLinks = [
+  { name: "Privacy", path: "/privacy" },
+  { name: "Terms of Use", path: "/terms-of-use" },
+];
 
 export default function Footer() {
   return (
@@ -35,26 +45,30 @@ export default function Footer() {
 
           {/* Social */}
           <div className="flex flex-col gap-1.5 pt-1">
-            {socialLinks.map((s) => (
-              <span
-                key={s}
-                className="text-xs text-white/40 hover:text-white/70 transition-colors cursor-pointer"
-              >
-                {s}
-              </span>
-            ))}
+            {socialLinks.map((item) => (
+    <a
+      key={item.name}
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-primary transition"
+    >
+      {item.name}
+    </a>
+  ))}
           </div>
 
           {/* Legal */}
           <div className="flex flex-col gap-1.5 pt-1">
-            {legalLinks.map((l) => (
-              <span
-                key={l}
-                className="text-xs text-white/40 hover:text-white/70 transition-colors cursor-pointer"
-              >
-                {l}
-              </span>
-            ))}
+             {legalLinks.map((item) => (
+    <Link
+      key={item.name}
+      to={item.path}
+      className="hover:text-primary transition"
+    >
+      {item.name}
+    </Link>
+  ))}
           </div>
 
           {/* Email CTA */}
