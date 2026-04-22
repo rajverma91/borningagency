@@ -1,169 +1,124 @@
 import React from "react";
 
 export default function Terms() {
+  const sections = [
+    {
+      title: "1. Our Services",
+      text: "Borning Agency provides AI-powered growth marketing, web systems, automation, SEO, branding, and digital infrastructure designed to help founder-led brands scale efficiently.",
+    },
+    {
+      title: "2. User Responsibilities",
+      text: "You agree to use this website only for lawful purposes. You must not misuse our systems, upload harmful content, interfere with our services, or perform unauthorized scraping or data mining.",
+    },
+    {
+      title: "3. Intellectual Property",
+      text: "All content, frameworks, designs, systems, and materials on Borning Agency are protected intellectual property and may not be copied, modified, or redistributed without written permission.",
+    },
+    {
+      title: "4. User Content",
+      text: "You retain ownership of submitted content. By sharing it with us, you grant us a limited license to use it only for delivering and improving our services.",
+    },
+    {
+      title: "5. Prohibited Activities",
+      list: [
+        "Illegal use of the website",
+        "Reverse engineering tools or systems",
+        "Uploading malicious software",
+        "Impersonation or abusive behavior",
+      ],
+    },
+    {
+      title: "6. Disclaimers",
+      text: "All services are provided on an 'as is' basis without warranties. We do not guarantee uninterrupted access or error-free performance.",
+    },
+    {
+      title: "7. Limitation of Liability",
+      text: "Borning Agency shall not be liable for indirect or consequential damages. Total liability is limited to fees paid in the last 12 months.",
+    },
+    {
+      title: "8. Termination",
+      text: "We may suspend or terminate access if these Terms are violated.",
+    },
+    {
+      title: "9. Governing Law",
+      text: "These Terms are governed by the laws of India. Any disputes shall fall under the jurisdiction of Ludhiana, Punjab courts.",
+    },
+    {
+      title: "10. Changes to Terms",
+      text: "We may update these Terms periodically. Continued use of the website means acceptance of revised terms.",
+    },
+  ];
+
   return (
-    <section className="terms-page py-16 px-6 md:px-12 lg:px-24 bg-white text-gray-800">
+    <section className="bg-gray-50 py-20 px-6 md:px-10 lg:px-20">
       <div className="max-w-5xl mx-auto">
-        
-        <header className="mb-12 text-center">
-          <h1 className="text-4xl font-bold mb-4">Terms of Use</h1>
-          <h2 className="text-2xl font-semibold text-gray-700">
-            Borning Agency Terms of Use
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Welcome to <strong>Borning Agency</strong> — your AI-powered growth
-            marketing and web systems partner for founder-led brands.
+
+        {/* Header */}
+        <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 border border-gray-100 mb-10">
+          <span className="inline-block bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1 rounded-full mb-5">
+            Legal Document
+          </span>
+
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-left">
+            Terms of Use
+          </h1>
+
+          <p className="text-lg text-gray-600 leading-relaxed text-left">
+            Welcome to <strong>Borning Agency</strong>. These Terms govern your
+            use of our website, services, AI-powered systems, and digital growth
+            solutions.
           </p>
-          <p className="mt-2 text-gray-600">
-            These Terms of Use govern your access to and use of{" "}
-            <a
-              href="https://borningagency.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline"
-            >
-              https://borningagency.com
-            </a>{" "}
-            and all related services.
-          </p>
-        </header>
-
-        <div className="space-y-10">
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">1. Our Services</h3>
-            <p>
-              Borning Agency offers AI-powered growth marketing strategies, web
-              systems, automation, SEO, and digital infrastructure designed to
-              help founder-led brands scale efficiently.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              2. User Responsibilities
-            </h3>
-            <p>
-              You agree to use the website only for lawful purposes. You must
-              not misuse our AI systems, attempt to interfere with them, upload
-              harmful content, or engage in any unauthorized scraping or data
-              mining.
-            </p>
-            <p className="mt-2">
-              You are responsible for keeping your account information secure.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              3. Intellectual Property
-            </h3>
-            <p>
-              All content, AI models, strategies, designs, and materials on
-              Borning Agency are our exclusive intellectual property.
-            </p>
-            <p className="mt-2">
-              You may not copy, modify, reproduce, or distribute them without
-              our prior written consent.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">4. User Content</h3>
-            <p>
-              You retain ownership of any content you submit. By submitting it,
-              you grant us a worldwide, non-exclusive, royalty-free license to
-              use and process it solely to provide and improve our services.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              5. Prohibited Activities
-            </h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Use the Site for any illegal purpose</li>
-              <li>Reverse engineer or interfere with our AI tools</li>
-              <li>Upload viruses or malicious code</li>
-              <li>Impersonate others or harass users</li>
-            </ul>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">6. Disclaimers</h3>
-            <p>
-              The website and services are provided “as is” without any
-              warranties. We do not guarantee uninterrupted access or error-free
-              performance of our AI-powered growth marketing systems.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              7. Limitation of Liability
-            </h3>
-            <p>
-              Borning Agency shall not be liable for any indirect, incidental,
-              or consequential damages arising from your use of the Site.
-            </p>
-            <p className="mt-2">
-              Our total liability shall not exceed the amount you paid us (if
-              any) in the last twelve months.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">8. Termination</h3>
-            <p>
-              We reserve the right to suspend or terminate your access at any
-              time for breach of these Terms.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">9. Governing Law</h3>
-            <p>
-              These Terms are governed by the laws of India. Disputes shall be
-              subject to the exclusive jurisdiction of courts in Ludhiana,
-              Punjab.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              10. Changes to Terms
-            </h3>
-            <p>
-              We may update these Terms occasionally. Continued use of the
-              website after changes constitutes your acceptance of the revised
-              Terms.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">Contact Us</h3>
-            <p>
-              If you have any questions about these Terms of Use, please contact
-              us at{" "}
-              <a
-                href="mailto:hello@borningagency.com"
-                className="text-blue-600 underline"
-              >
-                hello@borningagency.com
-              </a>
-            </p>
-          </article>
-
         </div>
 
-        <footer className="mt-16 pt-8 border-t text-center text-gray-600">
-          <p>
-            By using Borning Agency’s AI-powered growth marketing and web
-            systems, you acknowledge that you have read and agree to these Terms
-            of Use.
-          </p>
-        </footer>
+        {/* Content */}
+        <div className="grid gap-6">
+          {sections.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-md p-7 border border-gray-100 hover:shadow-lg transition"
+            >
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-left">
+                {item.title}
+              </h3>
 
+              {item.text && (
+                <p className="text-gray-600 leading-8 text-left">{item.text}</p>
+              )}
+
+              {item.list && (
+                <ul className="space-y-3 text-gray-600 text-left">
+                  {item.list.map((li, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="w-2 h-2 mt-3 bg-blue-600 rounded-full"></span>
+                      <span>{li}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Contact */}
+        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl shadow-xl p-10 mt-10 text-white">
+          <h3 className="text-3xl font-bold mb-4 text-left">Contact Us</h3>
+          <p className="text-lg text-left text-blue-100 mb-4">
+            Questions about these Terms? Reach out anytime.
+          </p>
+
+          <a
+            href="mailto:hello@borningagency.com"
+            className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition"
+          >
+            hello@borningagency.com
+          </a>
+        </div>
+
+        {/* Footer */}
+        <div className="text-left mt-10 text-gray-500 text-sm">
+          By using Borning Agency services, you acknowledge and accept these
+          Terms of Use.
+        </div>
       </div>
     </section>
   );

@@ -1,187 +1,136 @@
 import React from "react";
 
 export default function Privacy() {
+  const sections = [
+    {
+      title: "1. Information We Collect",
+      list: [
+        "Personal details such as name, email, phone number, and company information.",
+        "Technical data including IP address, browser type, device details, and analytics data.",
+        "Cookies and similar technologies used to improve performance and user experience.",
+      ],
+    },
+    {
+      title: "2. How We Use Your Information",
+      list: [
+        "Deliver and personalize our services.",
+        "Respond to inquiries and provide support.",
+        "Improve website speed, performance, and security.",
+        "Enhance AI systems and internal workflows.",
+        "Meet legal and compliance obligations.",
+      ],
+    },
+    {
+      title: "3. Sharing of Information",
+      text: "We do not sell your personal information. Data may only be shared with trusted service providers such as hosting, analytics, payment, or technical partners under confidentiality obligations, or when legally required.",
+    },
+    {
+      title: "4. Cookies & Tracking",
+      text: "We use essential cookies for functionality and analytics cookies to understand how visitors use our website. You may disable cookies through your browser settings.",
+    },
+    {
+      title: "5. Data Security",
+      text: "We apply reasonable technical and organizational safeguards to protect your data. However, no online platform can guarantee complete security.",
+    },
+    {
+      title: "6. Your Rights",
+      text: "You may request access, correction, deletion, or updates to your personal data, subject to applicable laws.",
+    },
+    {
+      title: "7. Data Retention",
+      text: "We retain information only for as long as necessary to provide services, maintain records, or comply with legal obligations.",
+    },
+    {
+      title: "8. Children's Privacy",
+      text: "Our services are not intended for users under 18 years of age, and we do not knowingly collect children's personal data.",
+    },
+    {
+      title: "9. International Transfers",
+      text: "Your data may be processed in India or other countries where our service providers operate, with appropriate safeguards where required.",
+    },
+    {
+      title: "10. Policy Updates",
+      text: "We may revise this Privacy Policy from time to time. Updates will be published on this page with the latest revision date.",
+    },
+  ];
+
   return (
-    <section className="privacy-page py-16 px-6 md:px-12 lg:px-24 bg-white text-gray-800">
+    <section className="bg-gray-50 py-20 px-6 md:px-10 lg:px-20">
       <div className="max-w-5xl mx-auto">
 
-        <header className="mb-12 text-center">
-          <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
-          <h2 className="text-2xl font-semibold text-gray-700">
-            Borning Agency Privacy Policy
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            At <strong>Borning Agency</strong>, we are committed to protecting
-            your privacy while delivering powerful AI-powered growth marketing
-            and web systems for founder-led brands.
+        {/* Header */}
+        <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 border border-gray-100 mb-10">
+          <span className="inline-block bg-green-100 text-green-700 text-sm font-semibold px-4 py-1 rounded-full mb-5">
+            Privacy & Protection
+          </span>
+
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-left">
+            Privacy Policy
+          </h1>
+
+          <p className="text-lg text-gray-600 leading-relaxed text-left">
+            At <strong>Borning Agency</strong>, we value your privacy and are
+            committed to protecting your personal information while delivering
+            AI-powered growth marketing and web systems.
           </p>
-          <p className="mt-2 text-gray-600">
-            This Privacy Policy explains how we collect, use, store, and protect
-            your information when you visit{" "}
-            <a
-              href="https://borningagency.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline"
-            >
-              https://borningagency.com
-            </a>{" "}
-            or use our services.
+
+          <p className="mt-4 text-gray-500 text-left">
+            This policy explains how we collect, use, and safeguard your data
+            when you use our website or services.
           </p>
-        </header>
-
-        <div className="space-y-10">
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              1. Information We Collect
-            </h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                Personal information such as name, email address, phone number,
-                and company details you provide when contacting us or signing up
-                for services.
-              </li>
-              <li>
-                Automatically collected data including IP address, browser type,
-                device information, and website usage analytics.
-              </li>
-              <li>
-                Cookies and similar tracking technologies to improve your
-                experience with our AI tools and marketing systems.
-              </li>
-            </ul>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              2. How We Use Your Information
-            </h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                Provide and personalize our AI-powered growth marketing
-                strategies and web systems.
-              </li>
-              <li>
-                Communicate with you regarding services, updates, and support.
-              </li>
-              <li>
-                Analyze website usage to enhance performance and user
-                experience.
-              </li>
-              <li>
-                Improve our AI models and digital infrastructure for founder-led
-                brands.
-              </li>
-              <li>Comply with legal obligations.</li>
-            </ul>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              3. Sharing of Information
-            </h3>
-            <p>
-              We do not sell your personal data. We may share information only
-              with trusted third-party service providers (such as hosting and
-              analytics partners) who are bound by confidentiality obligations,
-              or when required by law.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              4. Cookies and Tracking Technologies
-            </h3>
-            <p>
-              We use essential cookies to operate the website and analytics
-              cookies to understand how users interact with Borning Agency’s
-              AI-powered tools.
-            </p>
-            <p className="mt-2">
-              You can manage cookie preferences through your browser settings.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">5. Data Security</h3>
-            <p>
-              We implement reasonable security measures to protect your
-              information. However, no online system is completely secure, and
-              we cannot guarantee absolute security of data transmitted to
-              Borning Agency.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">6. Your Data Rights</h3>
-            <p>
-              You have the right to access, correct, update, or delete your
-              personal information.
-            </p>
-            <p className="mt-2">
-              To exercise these rights, please contact us at{" "}
-              <a
-                href="mailto:privacy@borningagency.com"
-                className="text-blue-600 underline"
-              >
-                privacy@borningagency.com
-              </a>
-              .
-            </p>
-            <p className="mt-2">
-              We respond to all legitimate requests in accordance with
-              applicable laws, including the Digital Personal Data Protection
-              Act.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">7. Data Retention</h3>
-            <p>
-              We retain your information only as long as necessary to provide
-              our services or fulfill legal requirements.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              8. Children’s Privacy
-            </h3>
-            <p>
-              Borning Agency services are not intended for individuals under 18
-              years of age. We do not knowingly collect personal data from
-              children.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              9. International Data Transfers
-            </h3>
-            <p>
-              Your data may be processed in India or other countries where our
-              service providers are located. We ensure appropriate safeguards
-              are in place for such transfers.
-            </p>
-          </article>
-
-          <article>
-            <h3 className="text-2xl font-semibold mb-3">
-              10. Changes to Privacy Policy
-            </h3>
-            <p>
-              We may update this Privacy Policy from time to time. The revised
-              policy will be posted on this page with the updated “Last Updated”
-              date.
-            </p>
-          </article>
-
         </div>
 
-        <footer className="mt-16 pt-8 border-t text-center text-gray-600">
-          <p>Last Updated: April 21, 2026</p>
-        </footer>
+        {/* Sections */}
+        <div className="grid gap-6">
+          {sections.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-md p-7 border border-gray-100 hover:shadow-lg transition"
+            >
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-left">
+                {item.title}
+              </h3>
+
+              {item.text && (
+                <p className="text-gray-600 leading-8 text-left">{item.text}</p>
+              )}
+
+              {item.list && (
+                <ul className="space-y-3 text-left">
+                  {item.list.map((li, i) => (
+                    <li key={i} className="flex items-start gap-3 text-gray-600">
+                      <span className="w-2 h-2 mt-3 bg-green-600 rounded-full"></span>
+                      <span>{li}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Contact Box */}
+        <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl shadow-xl p-10 mt-10 text-white">
+          <h3 className="text-3xl font-bold mb-4 text-left">
+            Privacy Contact
+          </h3>
+
+          <p className="text-green-100 text-lg mb-5 text-left">
+            For privacy requests or data-related questions, contact us anytime.
+          </p>
+
+          <a
+            href="mailto:privacy@borningagency.com"
+            className="inline-block bg-white text-green-700 font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition"
+          >
+            privacy@borningagency.com
+          </a>
+        </div>
+
+        {/* Footer */}
+        <div className="mt-10 text-left text-sm text-gray-500">
+          Last Updated: April 21, 2026
+        </div>
 
       </div>
     </section>
