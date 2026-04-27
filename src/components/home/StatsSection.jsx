@@ -10,11 +10,10 @@ export default function StatsSection() {
             We turn scattered marketing into one sharp, intelligent growth system.
 
           </h2>
-          <p>At Borning Agency, we work with founder-led brands, ambitious service businesses, and modern operators who need more than disconnected marketing efforts. Most brands today struggle with fragmented vendors, inconsistent messaging, weak digital presence, and systems that do not convert.
+          <p>We bring strategy, execution, and technology together to build systems that actually drive growth.
           </p>
-          <p>We solve that by bringing together strategy, execution, and technology under one focused growth framework.</p>
-          <p>From AI-powered workflows and performance-led digital campaigns to founder visibility through PR and conversion-focused web development, we create systems that are designed to strengthen your market presence and accelerate business momentum.</p>
-          <p>We are not a bloated service agency. We are a selective growth partner built for clarity, speed, and outcomes.</p>
+          <p>From AI-powered workflows to performance marketing, PR visibility to conversion-led web experiences—everything works as one.</p>
+        
         </div>
 
         {/* RIGHT CARDS */}

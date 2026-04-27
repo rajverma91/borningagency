@@ -113,7 +113,56 @@ html {
   background: hsl(0 0% 70%);
   border-radius: 3px;
 }
+.hero-points {
+  list-style: none;
+  padding: 0;
+  margin: 28px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.hero-points li {
+  position: relative;
+  padding-left: 22px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* Descending font sizes */
+.point-1 {
+  font-size: 28px;
+}
+
+.point-2 {
+  font-size: 22px;
+}
+.hero-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-btn-group button.hero-btn:last-child {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.point-3 {
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+}
 
 .hero {
   position: relative;

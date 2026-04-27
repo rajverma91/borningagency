@@ -1,10 +1,32 @@
 "use client";
 
+import { useEffect, useRef } from "react";
+
 export default function Hero() {
+  const bgRef = useRef(null);
+
+  useEffect(() => {
+    let x = 0;
+    let y = 0;
+
+    const moveBg = () => {
+      x += 0.03; // horizontal slow move
+      y += 0.02; // vertical slow move
+
+      if (bgRef.current) {
+        bgRef.current.style.transform = `scale(1.08) translate(${Math.sin(x) * 20}px, ${Math.cos(y) * 15}px)`;
+      }
+
+      requestAnimationFrame(moveBg);
+    };
+
+    moveBg();
+  }, []);
+
   return (
     <section className="hero">
       {/* Background Image */}
-      <div className="hero-bg"></div>
+      <div ref={bgRef} className="hero-bg"></div>
 
       {/* Overlay */}
       <div className="hero-overlay"></div>
@@ -14,25 +36,35 @@ export default function Hero() {
         {/* LEFT TEXT */}
         <div className="hero-left">
           <h1>
-            BUILT FOR<br />
- 
- GROWTH
+            BUILT FOR <br />
+            GROWTH
           </h1>
-          <p style={{ width: '40%' }}>
-            AI-powered digital marketing, PR visibility, and conversion-led web systems built for ambitious brands that want sharper positioning, stronger visibility, and scalable growth. We help founder-led businesses and modern service brands move faster with smarter systems, clearer messaging, and stronger commercial outcomes.
+
+          <p>
+           Turn visibility into revenue with AI-powered growth systems.
           </p>
+          {/* CTA Buttons */}
+<div className="hero-btn-group">
+ <button className="hero-btn">
+            <span>→</span> Book a Discovery Call
+          </button>
+ <button className="hero-btn">
+            <span>→</span> View Our Work
+          </button>
+</div>
+ <p className="mt-5"><i>Helping modern brands scale with measurable impact
+</i></p>
         </div>
 
-        {/* RIGHT SIDE */}
+        {/* RIGHT */}
         <div className="hero-right">
-          <p>
-            From acquisition strategy and media visibility to AI workflows and premium web experiences, every solution is designed to support long-term growth and measurable impact.
-          </p>
+          <ul className="hero-points">
+  <li className="point-1">Trusted by 50+ brands</li>
+  <li className="point-2">120+ projects delivered</li>
+  <li className="point-3">Results-driven growth systems</li>
+</ul>
 
-          <button className="hero-btn">
-            <span className="arrow">→</span>
-            Book a Discovery Call
-          </button>
+      
         </div>
       </div>
     </section>
