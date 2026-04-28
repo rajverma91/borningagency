@@ -1,58 +1,63 @@
 export const projects = [
   {
-    id: "what-we-build",
-    title: "What We Build",
-    description: "Our services are designed to work independently, but their real strength lies in how they come together as one cohesive growth system.",
-    tags: ["Strategy", "Visual Identity", "Branding"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work01_y1xhwz.jpg",
-    layout: "tall"
+    id: "ai-marketing-systems-2026",
+    title: "How AI Marketing Systems Are Transforming Lead Generation in 2026",
+    description: `Lead generation in 2026 is driven by intelligent systems, not disconnected campaigns. Businesses are using AI marketing systems to improve targeting, automate optimisation, and scale personalised customer journeys.
+
+These systems connect ads, content, websites, and CRM data into one growth engine that continuously learns and improves performance.`,
+    tags: ["AI Systems", "Lead Generation", "Growth"],
+    image:
+      "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work01_y1xhwz.jpg",
+    layout: "tall",
   },
-  {
-    id: "ai-growth-systems",
-    title: "AI Growth Systems",
-    description: `We design intelligent workflows and AI-powered systems that help businesses reduce manual effort, streamline operations, and improve lead management.
 
-From lead routing and automated customer journeys to internal process optimisation and AI-led operational support, we help brands use AI as infrastructure rather than just a trend.`,
-    tags: ["Visual Identity", "Web Design"],
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/7b3806adb_generated_44b27dff.png",
-    layout: "wide"
+  {
+    id: "founder-led-pr-trust",
+    title: "Why Founder-Led PR Builds Stronger Brand Trust",
+    description: `Trust is the most valuable currency in modern business. Founder-led PR helps brands become more human by positioning the founder as the voice of the company through media, interviews, podcasts, and thought leadership.
+
+People connect with real stories, expertise, and authenticity more than corporate messaging.`,
+    tags: ["PR", "Brand Trust", "Founder Visibility"],
+    image:
+      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/7b3806adb_generated_44b27dff.png",
+    layout: "wide",
   },
+
   {
-    id: "digital-growth-marketing",
-    title: "Digital Growth Marketing",
-    description: `Growth should be measurable.
+    id: "website-conversion-elements",
+    title: "5 Website Elements That Increase Lead Conversion",
+    description: `Traffic alone does not grow a business—conversion does. A high-performing website guides visitors toward action through clarity, trust, and usability.
 
-We build performance-driven digital marketing systems focused on customer acquisition, lead generation, funnel optimisation, and long-term scalability.
-
-Every campaign is aligned to business outcomes, ensuring that marketing spend directly contributes to pipeline growth and revenue performance.`,
-    tags: ["Web Design", "Development"],
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/994f6f6b4_generated_1f71bba8.png",
-    layout: "tall"
+Strong CTAs, social proof, fast user experience, and conversion-focused design help turn more visitors into qualified leads.`,
+    tags: ["Web Design", "Conversion", "UX"],
+    image:
+      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/994f6f6b4_generated_1f71bba8.png",
+    layout: "tall",
   },
+
   {
-    id: "pr-founder-visibility",
-    title: "PR & Founder Visibility",
-    description: `Visibility builds trust, and trust builds growth.
+    id: "smart-growth-systems",
+    title: "Why Businesses Need Integrated Growth Systems",
+    description: `Disconnected marketing tools create slow decisions and poor customer journeys. Integrated growth systems align strategy, campaigns, websites, automation, and analytics into one scalable engine.
 
-We help founders and brands strengthen their authority through narrative building, strategic media outreach, and visibility campaigns that improve credibility in the market.
-
-From founder-led storytelling to media placements and brand reputation building, we position your business where it matters.`,
-    tags: ["Web Design", "Development", "Motion Design"],
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/23d8f8057_generated_9ec1c760.png",
-    layout: "wide"
+This creates clearer execution, better data usage, and sustainable growth.`,
+    tags: ["Strategy", "Systems", "Scaling"],
+    image:
+      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/23d8f8057_generated_9ec1c760.png",
+    layout: "wide",
   },
+
   {
-    id: "web-landing-pages",
-    title: "Web & Landing Pages",
-    description: `A premium digital presence is essential for modern growth.
+    id: "modern-brand-visibility",
+    title: "How Modern Brands Build Visibility That Converts",
+    description: `Visibility alone is not enough. Brands need trust-based visibility through PR, founder presence, strategic content, and premium web experiences.
 
-We create websites and landing pages that are built not only to look sharp but to convert effectively.
-
-Every web build is designed with user trust, messaging clarity, and lead capture in mind, ensuring that your website becomes a business asset rather than just an online brochure.`,
-    tags: ["Web Design", "Development", "Motion Design"],
-    image: "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/23d8f8057_generated_9ec1c760.png",
-    layout: "wide"
-  }
+When authority and conversion systems work together, visibility becomes revenue.`,
+    tags: ["Branding", "Visibility", "Growth"],
+    image:
+      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/23d8f8057_generated_9ec1c760.png",
+    layout: "wide",
+  },
 ];
 
 export const projectspage = [
@@ -222,11 +227,36 @@ export const testimonials = [
   },
 ];
 export const faqItems = [
-  { question: "How long does a typical project take?", answer: "Most projects take 3–6 weeks depending on scope and complexity. We'll define a clear timeline during our kickoff session." },
-  { question: "Do you work with existing brands or only new ones?", answer: "Both. We work with established brands looking to refine their presence, as well as new ventures building from scratch." },
-  { question: "Do you offer revisions?", answer: "Yes. Each plan includes a set number of revisions per request, and we're always open to feedback throughout the process." },
-  { question: "What do you need from me to get started?", answer: "A brief overview of your project, your goals, and any existing brand assets. We'll guide you through the rest during our discovery call." },
-  { question: "How do we get started?", answer: "Simply reach out through our contact page. We'll schedule a call to discuss your needs and find the best approach." }
+  {
+    question: "What exactly does Borning Agency do?",
+    answer:
+      "We don’t offer disconnected services. We build integrated growth systems—combining strategy, execution, and technology to drive measurable business outcomes.",
+  },
+  {
+    question: "Who do you typically work with?",
+    answer:
+      "We work with founder-led brands, modern service businesses, and teams that are serious about scaling with clarity, not guesswork.",
+  },
+  {
+    question: "How are you different from other marketing agencies?",
+    answer:
+      "Most agencies focus on channels. We focus on systems. That means everything—from positioning to campaigns to your website—works together to drive real growth.",
+  },
+  {
+    question: "What kind of results can we expect?",
+    answer:
+      "Our goal is not vanity metrics. We focus on outcomes like stronger positioning, better lead quality, higher conversions, and sustainable growth systems.",
+  },
+  {
+    question: "Do you offer one-time projects or long-term partnerships?",
+    answer:
+      "We do both, but our best results come from long-term partnerships where we can continuously optimize and scale your growth system.",
+  },
+  {
+    question: "How do we get started?",
+    answer:
+      "It starts with a discovery call. We understand your current setup, identify gaps, and outline a clear path toward building a more effective growth system.",
+  },
 ];
 
 export const blogPosts = [

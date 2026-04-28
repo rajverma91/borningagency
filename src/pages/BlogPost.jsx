@@ -62,35 +62,9 @@ export default function BlogPost() {
         </div>
 
         {/* Content */}
-        <div className="prose prose-neutral max-w-none">
-          {post.content ? (
-            post.content.map((block, i) => {
-              if (block.type === 'paragraph') {
-                return <p key={i} className="text-base text-muted-foreground leading-relaxed mb-5">{block.text}</p>;
-              }
-              if (block.type === 'heading') {
-                return <h2 key={i} className="text-2xl font-black tracking-tight mt-10 mb-4">{block.text}</h2>;
-              }
-              if (block.type === 'list') {
-                return (
-                  <ul key={i} className="space-y-2 mb-5 pl-0">
-                    {block.items.map((item, j) => (
-                      <li key={j} className="flex items-start gap-3 text-sm text-muted-foreground">
-                        <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                );
-              }
-              return null;
-            })
-          ) : (
-            <p className="text-base text-muted-foreground leading-relaxed">
-              Full article content coming soon. Stay tuned for our in-depth exploration of this topic.
-            </p>
-          )}
-        </div>
+        <p className="text-base text-muted-foreground leading-relaxed">
+  {post.description}
+</p>
 
         {/* Back CTA */}
         <div className="mt-16 pt-10 border-t border-border">

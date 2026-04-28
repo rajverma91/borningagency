@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  FaInstagram,
+  FaXTwitter,
+  FaDribbble,
+  FaBehance,
+} from "react-icons/fa6";
 
 const pageLinks = [
   { label: "Home", path: "/" },
@@ -11,20 +17,36 @@ const pageLinks = [
 ];
 
 const socialLinks = [
-  { name: "Instagram", url: "https://instagram.com" },
-  { name: "X (Twitter)", url: "https://x.com" },
-  { name: "Dribbble", url: "https://dribbble.com" },
-  { name: "Behance", url: "https://behance.net" },
+  {
+    name: "Instagram",
+    url: "https://instagram.com",
+    icon: <FaInstagram size={14} />,
+  },
+  {
+    name: "X (Twitter)",
+    url: "https://x.com",
+    icon: <FaXTwitter size={14} />,
+  },
+  {
+    name: "Dribbble",
+    url: "https://dribbble.com",
+    icon: <FaDribbble size={14} />,
+  },
+  {
+    name: "Behance",
+    url: "https://behance.net",
+    icon: <FaBehance size={14} />,
+  },
 ];
 
 export default function Footer() {
   return (
     <footer className="bg-[#0b0f1a] text-white pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        
+
         {/* Top Section */}
         <div className="grid md:grid-cols-4 gap-10 border-b border-white/10 pb-12">
-          
+
           {/* Brand */}
           <div>
             <h2 className="text-xl font-semibold mb-2">Borning Agency</h2>
@@ -64,9 +86,8 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-white/70 hover:text-white transition"
                 >
-                  {/* Circle Icon Placeholder */}
-                  <span className="w-7 h-7 flex items-center justify-center rounded-full border border-white/20 text-xs">
-                    {item.name.charAt(0)}
+                  <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20">
+                    {item.icon}
                   </span>
                   {item.name}
                 </a>
