@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const pageLinks = [
   { label: "Home", path: "/" },
@@ -10,95 +10,98 @@ const pageLinks = [
   { label: "Contact", path: "/contact" },
 ];
 
-
 const socialLinks = [
   { name: "Instagram", url: "https://instagram.com" },
-  { name: "X Twitter", url: "https://x.com" },
+  { name: "X (Twitter)", url: "https://x.com" },
   { name: "Dribbble", url: "https://dribbble.com" },
   { name: "Behance", url: "https://behance.net" },
 ];
 
-const legalLinks = [
-  { name: "Privacy", path: "/privacy" },
-  { name: "Terms of Use", path: "/terms-of-use" },
-];
-
 export default function Footer() {
   return (
-    <footer className="bg-elio-dark text-white rounded-t-3xl overflow-hidden mt-0">
-      {/* Top content */}
-      <div className="px-10 w-[1400px] m-auto md:px-14 pt-14 pb-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <footer className="bg-[#0b0f1a] text-white pt-16 pb-6">
+      <div className="max-w-7xl mx-auto px-6 md:px-10">
+        
+        {/* Top Section */}
+        <div className="grid md:grid-cols-4 gap-10 border-b border-white/10 pb-12">
+          
+          {/* Brand */}
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Borning Agency</h2>
+            <p className="text-sm text-white/50 mb-4">
+              Building systems for scalable growth.
+            </p>
+            <p className="text-xs text-white/40">
+              AI-powered marketing • PR • Web
+            </p>
+          </div>
 
-          {/* Page nav links — large */}
-          <div className="flex flex-col gap-1.5">
-            {pageLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className="text-xl md:text-2xl font-bold text-white/60 hover:text-white transition-colors leading-tight"
-              >
-                {link.label}
-              </Link>
-            ))}
+          {/* Navigation */}
+          <div>
+            <h3 className="text-sm text-white/60 mb-4">Navigation</h3>
+            <div className="flex flex-col gap-2">
+              {pageLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className="text-white/70 hover:text-white transition"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Social */}
-          <div className="flex flex-col gap-1.5 pt-1">
-            {socialLinks.map((item) => (
-    <a
-      key={item.name}
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-primary transition"
-    >
-      {item.name}
-    </a>
-  ))}
+          <div>
+            <h3 className="text-sm text-white/60 mb-4">Social</h3>
+            <div className="flex flex-col gap-3">
+              {socialLinks.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/70 hover:text-white transition"
+                >
+                  {/* Circle Icon Placeholder */}
+                  <span className="w-7 h-7 flex items-center justify-center rounded-full border border-white/20 text-xs">
+                    {item.name.charAt(0)}
+                  </span>
+                  {item.name}
+                </a>
+              ))}
+            </div>
           </div>
 
-          {/* Legal */}
-          <div className="flex flex-col gap-1.5 pt-1">
-             {legalLinks.map((item) => (
-    <Link
-      key={item.name}
-      to={item.path}
-      className="hover:text-primary transition"
-    >
-      {item.name}
-    </Link>
-  ))}
-          </div>
+          {/* Contact */}
+          <div>
+            <h3 className="text-sm text-white/60 mb-4">Contact</h3>
 
-          {/* Email CTA */}
-          <div className="col-span-2 md:col-span-1 flex items-start">
             <a
-              href="mailto:hello@eliostudio.com"
-              className="text-2xl md:text-3xl lg:text-4xl font-black text-white leading-[1.1] hover:text-white/80 transition-colors"
+              href="mailto:info@borningagency.com"
+              className="flex items-center gap-3 text-white hover:text-white/80 transition"
             >
-              info@<br />borningagency.com
+              <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20">
+                ✉
+              </span>
+              info@borningagency.com
             </a>
+
+            <p className="text-sm text-white/50 mt-4 flex items-center gap-2">
+              → Let’s build something meaningful.
+            </p>
           </div>
-
         </div>
-      </div>
 
-      {/* Giant watermark wordmark */}
-     <div className="w-full m-auto text-center overflow-hidden leading-none">
-  <p className="
-    font-black text-white/10 whitespace-nowrap select-none
-    text-[clamp(60px,16vw,160px)]
-    max-[1500px]:text-[clamp(50px,12vw,120px)]
-  ">
-    BORNING AGENCY
-  </p>
-</div>
-
-      {/* Bottom bar */}
-      <div className="px-10 md:px-14 py-5 flex flex-col md:flex-row justify-between items-center gap-2 border-t border-white/5">
-        <span className="text-[11px] text-white/25">2026 ©. All rights reserved.</span>
-        <span className="text-[11px] text-white/25">Made in Agency · Created by borning agency</span>
+        {/* Bottom Bar */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-3 pt-6 text-xs text-white/40">
+          <p>© 2026 Borning Agency. All rights reserved.</p>
+          <p>
+            Designed & built by{" "}
+            <span className="text-white">Borning Agency</span>
+          </p>
+        </div>
       </div>
     </footer>
   );
