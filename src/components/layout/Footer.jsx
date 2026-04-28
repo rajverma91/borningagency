@@ -42,7 +42,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-[#0b0f1a] text-white pt-16 pb-6">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+      <div className="max-w-11xl mx-auto px-6 md:px-10">
 
         {/* Top Section */}
         <div className="grid md:grid-cols-4 gap-10 border-b border-white/10 pb-12">
@@ -60,7 +60,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h3 className="text-sm text-white/60 mb-4">Navigation</h3>
+            <h3 className="text-sm text-white/60 mb-4 text-[#8173ee]">Navigation</h3>
             <div className="flex flex-col gap-2">
               {pageLinks.map((link) => (
                 <Link
@@ -76,7 +76,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h3 className="text-sm text-white/60 mb-4">Social</h3>
+            <h3 className="text-sm text-white/60 mb-4 text-[#8173ee]">Social</h3>
             <div className="flex flex-col gap-3">
               {socialLinks.map((item) => (
                 <a
@@ -97,20 +97,20 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-sm text-white/60 mb-4">Contact</h3>
+            <h3 className="text-sm text-white/60 mb-4  text-[#8173ee]">Contact</h3>
 
             <a
               href="mailto:info@borningagency.com"
               className="flex items-center gap-3 text-white hover:text-white/80 transition"
             >
-              <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20">
+              <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20 text-[#8173ee]">
                 ✉
               </span>
               info@borningagency.com
             </a>
 
             <p className="text-sm text-white/50 mt-4 flex items-center gap-2">
-              → Let’s build something meaningful.
+              <span className="text-[#8173ee]">→</span> Let’s build something meaningful.
             </p>
           </div>
         </div>

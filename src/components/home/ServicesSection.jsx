@@ -3,10 +3,10 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { services } from '@/lib/siteData';
 
 const serviceImages = [
- "https://res.cloudinary.com/deydhfxgg/image/upload/v1776186831/how-we-work01_jj2rbd.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776186829/how-we-work02_qbexb8.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776186829/how-we-work03_jmimdx.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776186829/how-we-work04_hpzfdb.jpg",
+ "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408281/featucher01_chvnpq.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408281/featucher02_rq9uxn.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408280/featucher03_xw9nl9.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408280/featucher04_pofoen.png",
 ];
 
 function ServiceCard({ service, image, index, total }) {

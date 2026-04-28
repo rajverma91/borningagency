@@ -381,7 +381,7 @@ html {
 }
 
 .border {
-  border: 1px solid #f05a28;
+  border: 1px solid #8173ee;
 }
 
 
@@ -402,7 +402,9 @@ html {
   .stats-container {
     flex-direction: column;
   }
-
+.w-\[1400px\] {
+    width: 100%;
+}
   .stats-right {
     width: 100%;
   }

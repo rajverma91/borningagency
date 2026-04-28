@@ -2,48 +2,52 @@ export const projects = [
   {
     id: "ai-marketing-systems-2026",
     title: "How AI Marketing Systems Are Transforming Lead Generation in 2026",
-    description: `Lead generation in 2026 is driven by intelligent systems, not disconnected campaigns. Businesses are using AI marketing systems to improve targeting, automate optimisation, and scale personalised customer journeys.
-
-These systems connect ads, content, websites, and CRM data into one growth engine that continuously learns and improves performance.`,
+    description: `We helped the brand move beyond scattered efforts and unclear direction
+ by building a unified system across strategy, content, and performance.
+ The result was sharper positioning, stronger visibility, and steady growth.
+`,
     tags: ["AI Systems", "Lead Generation", "Growth"],
     image:
-      "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work01_y1xhwz.jpg",
+      "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/1bor-ser_uytk8d.png",
     layout: "tall",
   },
 
   {
     id: "founder-led-pr-trust",
     title: "Why Founder-Led PR Builds Stronger Brand Trust",
-    description: `Trust is the most valuable currency in modern business. Founder-led PR helps brands become more human by positioning the founder as the voice of the company through media, interviews, podcasts, and thought leadership.
-
-People connect with real stories, expertise, and authenticity more than corporate messaging.`,
+    description: `Facing inconsistent messaging and low conversion, the brand needed clarity
+ so we reworked positioning and designed a conversion-focused web experience.
+ This led to higher engagement, better leads, and measurable business impact.
+`,
     tags: ["PR", "Brand Trust", "Founder Visibility"],
     image:
-      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/7b3806adb_generated_44b27dff.png",
+      "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/2bor-ser_ss0lcl.png",
     layout: "wide",
   },
 
   {
     id: "website-conversion-elements",
     title: "5 Website Elements That Increase Lead Conversion",
-    description: `Traffic alone does not grow a business—conversion does. A high-performing website guides visitors toward action through clarity, trust, and usability.
-
-Strong CTAs, social proof, fast user experience, and conversion-focused design help turn more visitors into qualified leads.`,
+    description: `A growing service brand needed structure across channels and execution
+ so we connected SEO, campaigns, and web into one focused growth system.
+ The outcome was a scalable engine built to drive long-term results.
+`,
     tags: ["Web Design", "Conversion", "UX"],
     image:
-      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/994f6f6b4_generated_1f71bba8.png",
+      "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407436/3bor-ser_tv07z9.png",
     layout: "tall",
   },
 
   {
     id: "smart-growth-systems",
     title: "Why Businesses Need Integrated Growth Systems",
-    description: `Disconnected marketing tools create slow decisions and poor customer journeys. Integrated growth systems align strategy, campaigns, websites, automation, and analytics into one scalable engine.
-
-This creates clearer execution, better data usage, and sustainable growth.`,
+    description: `With fragmented campaigns and slow execution, progress had stalled
+ so we aligned strategy, operations, and automation into one system.
+ This unlocked faster delivery, clearer direction, and stronger momentum.
+`,
     tags: ["Strategy", "Systems", "Scaling"],
     image:
-      "https://media.base44.com/images/public/69bfbf2ab152460774670cdb/23d8f8057_generated_9ec1c760.png",
+      "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/4bor-ser_ijv6qi.png",
     layout: "wide",
   },
 
@@ -60,13 +64,15 @@ When authority and conversion systems work together, visibility becomes revenue.
   },
 ];
 
+
+
 export const projectspage = [
   {
     id: "ai-growth-systems",
     title: "AI Growth Systems",
     description: "Designed and deployed intelligent AI-powered workflows that streamline lead management, automate customer journeys, and improve operational efficiency. This helps businesses move faster, respond quicker, and convert better.",
     tags: ["AI Systems", "Automation ", "Lead Flow"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are01_wjulhk.jpg",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/1bor-ser_uytk8d.png",
     layout: "tall"
   },
   {
@@ -75,7 +81,7 @@ export const projectspage = [
     description: `Built a performance-led acquisition system with strategic paid campaigns, funnel optimisation, and conversion-focused landing pages designed to improve lead quality and support scalable business growth.
 `,
     tags: ["Growth Marketing", "Funnels", "Paid Strategy"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are02_hsgpas.jpg",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/2bor-ser_ss0lcl.png",
     layout: "wide"
   },
   {
@@ -84,7 +90,7 @@ export const projectspage = [
     description: `Created authority-led PR campaigns focused on founder storytelling, media outreach, and strategic placements to strengthen brand credibility, trust, and market visibility.
 `,
     tags: ["PR ", "Media Outreach" , "Founder Branding"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are03_yxml5b.jpg",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407436/3bor-ser_tv07z9.png",
     layout: "tall"
   },
   {
@@ -93,7 +99,7 @@ export const projectspage = [
     description: `Designed premium websites and high-converting landing pages built for trust, clear messaging, and stronger lead capture performance, fully aligned with marketing and PR campaigns.
 `,
     tags: ["Web Development", "UX ", "Landing Pages"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/v1776191238/who-we-are04_rx0lch.jpg",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/4bor-ser_ijv6qi.png",
     layout: "wide"
   },
 

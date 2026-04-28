@@ -9,10 +9,10 @@ import ProjectsGrid from './ProjectsGrid';
 // Reference layout: first project tall-left, second wide-right, third tall-left, fourth wide-right
 // Using real Framer image URLs
 const projectImages = [
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work01_y1xhwz.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work02_g3ohth.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work03_xjudx3.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work04_n48nvu.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/1bor-ser_uytk8d.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/2bor-ser_ss0lcl.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407436/3bor-ser_tv07z9.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/4bor-ser_ijv6qi.png",
   "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work05_aqdxpg.jpg",
 
 ];
