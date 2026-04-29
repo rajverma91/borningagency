@@ -15,12 +15,22 @@ function FAQItem({ item, index, isOpen, onToggle }) {
           <span className="text-sm text-muted-foreground font-normal w-6 shrink-0">
             {String(index + 1).padStart(2, '0')}
           </span>
-          <span className="text-sm font-medium text-foreground">{item.question}</span>
+
+          {/* Question text green */}
+          <span className="text-sm font-medium text-[#00cc65]">
+            {item.question}
+          </span>
         </span>
+
+        {/* Plus icon green */}
         <Plus
-          className={`w-4 h-4 text-primary shrink-0 ml-4 transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}
+          className={`w-4 h-4 shrink-0 ml-4 transition-transform duration-300 ${
+            isOpen ? 'rotate-45' : ''
+          }`}
+          style={{ color: '#00cc65' }}
         />
       </button>
+
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
@@ -46,9 +56,10 @@ export default function FAQSection() {
   return (
     <section className="py-16 md:py-24 px-6 md:px-10 max-w-[1400px] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-start">
+        
         {/* Left */}
         <AnimatedSection>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight">
+          <h3 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-[#00cc65]">
             Got questions?
           </h3>
         </AnimatedSection>

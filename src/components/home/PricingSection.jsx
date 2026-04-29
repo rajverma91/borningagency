@@ -51,7 +51,7 @@ export default function PricingSection() {
               key={i}
               className={`rounded-2xl overflow-hidden flex flex-col ${
                 plan.popular
-                  ? "bg-gradient-to-b from-orange-500 to-red-500 text-white"
+                  ? "bg-gradient-to-b from-green-500 to-red-500 text-white"
                   : plan.isProject
                   ? "bg-black text-white"
                   : "bg-white border"
@@ -63,7 +63,7 @@ export default function PricingSection() {
                 <h3 className="font-semibold text-lg">{plan.name}</h3>
 
                 {plan.popular && (
-                  <span className="bg-white text-orange-500 text-xs px-3 py-1 rounded-full font-semibold">
+                  <span className="bg-white text-green-500 text-xs px-3 py-1 rounded-full font-semibold">
                     Popular
                   </span>
                 )}
@@ -113,7 +113,7 @@ export default function PricingSection() {
                 to="/contact"
                 className={`flex items-center justify-center w-full py-3 rounded-full font-medium transition ${
                   plan.popular
-                    ? "bg-white text-orange-500"
+                    ? "bg-white text-green-500"
                     : plan.isProject
                     ? "bg-white text-black"
                     : "border hover:bg-gray-100"

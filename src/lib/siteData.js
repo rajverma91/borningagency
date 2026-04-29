@@ -72,7 +72,7 @@ export const projectspage = [
     title: "AI Growth Systems",
     description: "Designed and deployed intelligent AI-powered workflows that streamline lead management, automate customer journeys, and improve operational efficiency. This helps businesses move faster, respond quicker, and convert better.",
     tags: ["AI Systems", "Automation ", "Lead Flow"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/1bor-ser_uytk8d.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488413/ChatGPT_Image_Apr_30_2026_12_10_37_AM_au69kz.png",
     layout: "tall"
   },
   {
@@ -81,7 +81,7 @@ export const projectspage = [
     description: `Built a performance-led acquisition system with strategic paid campaigns, funnel optimisation, and conversion-focused landing pages designed to improve lead quality and support scalable business growth.
 `,
     tags: ["Growth Marketing", "Funnels", "Paid Strategy"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/2bor-ser_ss0lcl.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda13_cctinr.png",
     layout: "wide"
   },
   {
@@ -90,7 +90,7 @@ export const projectspage = [
     description: `Created authority-led PR campaigns focused on founder storytelling, media outreach, and strategic placements to strengthen brand credibility, trust, and market visibility.
 `,
     tags: ["PR ", "Media Outreach" , "Founder Branding"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407436/3bor-ser_tv07z9.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda_fvl4js.png",
     layout: "tall"
   },
   {
@@ -99,7 +99,7 @@ export const projectspage = [
     description: `Designed premium websites and high-converting landing pages built for trust, clear messaging, and stronger lead capture performance, fully aligned with marketing and PR campaigns.
 `,
     tags: ["Web Development", "UX ", "Landing Pages"],
-    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/4bor-ser_ijv6qi.png",
+    image: "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488413/ChatGPT_Image_Apr_30_2026_12_16_06_AM_rpw8og.png",
     layout: "wide"
   },
 

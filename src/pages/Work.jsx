@@ -12,37 +12,50 @@ export default function Work() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4">
+        {/* Heading Green */}
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4 text-[#00cc65]">
           FEATURED WORK
         </h1>
-        <div className="h-px bg-foreground w-full mb-16" />
+
+        {/* Line Green */}
+        <div className="h-px bg-[#00cc65] w-full mb-16" />
       </motion.div>
-       <AnimatedSection delay={0.2}>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed">
-              A curated showcase of how Borning Agency builds sharper systems, stronger visibility, and measurable growth outcomes for modern brands.
-              </p>
-            </AnimatedSection>
+
+      <AnimatedSection delay={0.2}>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed">
+          A curated showcase of how Borning Agency builds sharper systems,
+          stronger visibility, and measurable growth outcomes for modern brands.
+        </p>
+      </AnimatedSection>
 
       <div className="space-y-16 md:space-y-24">
         {projectspage.map((project, i) => (
           <AnimatedSection key={project.id} delay={i * 0.1}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start group cursor-pointer">
+              
               <div className="order-2 md:order-1">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-primary transition-colors">
+                {/* Title Green on Hover */}
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 transition-colors group-hover:text-[#00cc65]">
                   {project.title}
                 </h2>
+
                 <p className="text-sm text-muted-foreground leading-relaxed mb-6 max-w-md">
                   {project.description}
                 </p>
+
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
-                    <span key={tag} className="text-xs px-3 py-1.5 border border-border rounded-full text-muted-foreground">
+                    <span
+                      key={tag}
+                      className="text-xs px-3 py-1.5 border border-[#00cc65] rounded-full text-[#00cc65]"
+                    >
                       {tag}
                     </span>
                   ))}
                 </div>
               </div>
-              <div className="order-1 md:order-2 overflow-hidden rounded-lg">
+
+              <div className="order-1 md:order-2 overflow-hidden rounded-lg border border-[#00cc65]/20">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -50,8 +63,9 @@ export default function Work() {
                 />
               </div>
             </div>
+
             {i < projectspage.length - 1 && (
-              <div className="h-px bg-border mt-16 md:mt-24" />
+              <div className="h-px bg-[#00cc65]/20 mt-16 md:mt-24" />
             )}
           </AnimatedSection>
         ))}

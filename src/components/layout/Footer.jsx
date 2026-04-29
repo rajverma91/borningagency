@@ -97,20 +97,20 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-sm text-white/60 mb-4  text-[#8173ee]">Contact</h3>
+            <h3 className="text-sm text-white/60 mb-4  text-[#00cc65]">Contact</h3>
 
             <a
               href="mailto:info@borningagency.com"
               className="flex items-center gap-3 text-white hover:text-white/80 transition"
             >
-              <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20 text-[#8173ee]">
+              <span className="w-8 h-8 flex items-center justify-center rounded-full border border-white/20 text-[#00cc65]">
                 ✉
               </span>
               info@borningagency.com
             </a>
 
             <p className="text-sm text-white/50 mt-4 flex items-center gap-2">
-              <span className="text-[#8173ee]">→</span> Let’s build something meaningful.
+              <span className="text-[#00cc65]">→</span> Let’s build something meaningful.
             </p>
           </div>
         </div>
@@ -126,4 +126,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+}  

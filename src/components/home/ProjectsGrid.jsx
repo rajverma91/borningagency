@@ -6,7 +6,6 @@ export default function ProjectsGrid({ projects, projectImages }) {
   const [visibleCount, setVisibleCount] = useState(3);
   const loadMoreRef = useRef(null);
 
-  // ✅ Infinite scroll (smooth & reliable)
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -31,36 +30,39 @@ export default function ProjectsGrid({ projects, projectImages }) {
 
   return (
     <section className="relative">
-
-      {/* ✅ CONTENT */}
+      {/* CONTENT */}
       <div className="max-w-6xl mx-auto px-4 space-y-16">
-
         {visibleProjects.map((project, index) => {
           const isReverse = index % 2 !== 0;
 
           return (
             <AnimatedSection key={index} delay={0.05 * index}>
               <Link to={`/work/${project.slug}`} className="group block">
-
                 <div
                   className={`flex flex-col ${
                     isReverse ? "md:flex-row-reverse" : "md:flex-row"
                   } gap-10 items-center`}
                 >
-
                   {/* LEFT CONTENT */}
                   <div className="flex-1 max-w-md">
-                    <h3 className="text-2xl font-semibold mb-3 group-hover:text-primary transition">
+                    <h3 className="text-2xl font-semibold mb-3 transition group-hover:text-[#00cc65]">
                       {project.title}
-                    </h3>               
-                {project.description.split("\n\n").map((para, i) => (
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4" key={i}>{para}</p>
-                ))}
+                    </h3>
+
+                    {project.description.split("\n\n").map((para, i) => (
+                      <p
+                        className="text-sm text-muted-foreground leading-relaxed mb-4"
+                        key={i}
+                      >
+                        {para}
+                      </p>
+                    ))}
+
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="text-xs px-3 py-1 bg-muted rounded-full text-muted-foreground"
+                          className="text-xs px-3 py-1 rounded-full bg-[#00cc65]/10 text-[#00cc65]"
                         >
                           {tag}
                         </span>
@@ -79,36 +81,32 @@ export default function ProjectsGrid({ projects, projectImages }) {
                       />
                     </div>
                   </div>
-
                 </div>
-
               </Link>
             </AnimatedSection>
           );
         })}
 
-        {/* ✅ Load Trigger */}
+        {/* Load Trigger */}
         {visibleCount < projects.length && (
           <div
             ref={loadMoreRef}
-            className="text-center py-10 text-sm text-muted-foreground"
+            className="text-center py-10 text-sm text-[#00cc65]"
           >
             Loading more projects...
           </div>
         )}
-
       </div>
 
-      {/* ✅ Sticky Button (ONLY inside this section) */}
+      {/* Sticky Button */}
       <div className="sticky bottom-0 left-0 w-full flex justify-center py-6 bg-gradient-to-t from-white via-white/80 to-transparent">
         <Link
           to="/work"
-          className="bg-orange-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition"
+          className="bg-[#00cc65] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[#00b85a] transition"
         >
           ● See all work
         </Link>
       </div>
-
     </section>
   );
 }

@@ -1,39 +1,29 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-
 export default function Hero() {
-  const bgRef = useRef(null);
-
-  useEffect(() => {
-    let x = 0;
-    let y = 0;
-
-    const moveBg = () => {
-      x += 0.03; // horizontal slow move
-      y += 0.02; // vertical slow move
-
-      if (bgRef.current) {
-        bgRef.current.style.transform = `scale(1.08) translate(${Math.sin(x) * 20}px, ${Math.cos(y) * 15}px)`;
-      }
-
-      requestAnimationFrame(moveBg);
-    };
-
-    moveBg();
-  }, []);
-
   return (
     <section className="hero">
-      {/* Background Image */}
-      <div ref={bgRef} className="hero-bg"></div>
+      {/* Fullscreen Video Background */}
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      >
+        <source
+          src="https://res.cloudinary.com/deydhfxgg/video/upload/q_auto/f_auto/v1777494316/PinDown.io__boostgasmileage_1777494307_jhfnt7.mp4"
+          type="video/mp4"
+        />
+      </video>
 
-      {/* Overlay */}
+      {/* Black Overlay */}
       <div className="hero-overlay"></div>
 
-      {/* Content */}
+      {/* Same Old Layout Content */}
       <div className="hero-content">
-        {/* LEFT TEXT */}
+        {/* Left Side */}
         <div className="hero-left">
           <h1>
             BUILT FOR <br />
@@ -41,30 +31,31 @@ export default function Hero() {
           </h1>
 
           <p>
-           Turn visibility into revenue with AI-powered growth systems.
+            Turn visibility into revenue with AI-powered growth systems.
           </p>
-          {/* CTA Buttons */}
-<div className="hero-btn-group">
- <button className="hero-btn">
-            <span>→</span> Book a Discovery Call
-          </button>
- <button className="hero-btn">
-            <span>→</span> View Our Work
-          </button>
-</div>
- <p className="mt-5"><i>Helping modern brands scale with measurable impact
-</i></p>
+
+          <div className="hero-btn-group">
+            <button className="hero-btn">
+              Book a Discovery Call <span>→</span>
+            </button>
+
+            <button className="hero-btn">
+              View Our Work <span>→</span>
+            </button>
+          </div>
+
+          <p className="hero-small">
+            <i>Helping modern brands scale with measurable impact</i>
+          </p>
         </div>
 
-        {/* RIGHT */}
+        {/* Right Side */}
         <div className="hero-right">
           <ul className="hero-points">
-  <li className="point-1">Trusted by 50+ brands</li>
-  <li className="point-2">120+ projects delivered</li>
-  <li className="point-3">Results-driven growth systems</li>
-</ul>
-
-      
+            <li>Trusted by 50+ brands</li>
+            <li>120+ projects delivered</li>
+            <li>Results-driven growth systems</li>
+          </ul>
         </div>
       </div>
     </section>

@@ -60,7 +60,7 @@ export default function HeroSection() {
         </motion.div>
       </div>
 
-      {/* Right — terracotta orange with image */}
+      {/* Right — terracotta green with image */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

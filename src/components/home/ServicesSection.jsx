@@ -3,10 +3,10 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { services } from '@/lib/siteData';
 
 const serviceImages = [
- "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408281/featucher01_chvnpq.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408281/featucher02_rq9uxn.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408280/featucher03_xw9nl9.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777408280/featucher04_pofoen.png",
+ "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777478385/howwork01_gjo3fj.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777478385/howwork02_usqsvl.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777478385/howwork03_g84cvn.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777478385/howwork04_prqgqd.jpg",
 ];
 
 function ServiceCard({ service, image, index, total }) {
@@ -49,7 +49,7 @@ function ServiceCard({ service, image, index, total }) {
                 {service.items.map((item) => (
                   <span
                     key={item}
-                    className="text-[11px] px-3 py-1.5 rounded-full border border-white/20 text-white/70"
+                    className="text-[11px] px-3 py-1.5 rounded-full border border-[#00cc65] text-white/70"
                   >
                     {item}
                   </span>

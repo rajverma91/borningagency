@@ -70,7 +70,7 @@ export default function TrustSection() {
           
           {/* CARD 1 */}
           <AnimatedSection>
-            <div className="bg-white border rounded-2xl p-6">
+           <div className="bg-gray-100 rounded-2xl p-6">
               <h3 className="font-semibold mb-2">Responsive Design</h3>
               <p className="text-sm text-gray-500">
                 Seamless experiences designed to work across all devices and screen sizes.
@@ -98,9 +98,9 @@ export default function TrustSection() {
             </div>
           </AnimatedSection>
 
-          {/* CARD 4 (ORANGE BIG) */}
+          {/* CARD 4 (GREEN BIG) */}
           <AnimatedSection>
-            <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white rounded-2xl p-6">
+            <div className="bg-gradient-to-br from-green-500 to-green-500 text-white rounded-2xl p-6">
               <h3 className="font-semibold mb-2">Fast Delivery</h3>
               <p className="text-sm text-white/90">
                 Efficient workflows that move quickly while maintaining quality, clarity, and intent.

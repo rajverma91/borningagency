@@ -9,10 +9,10 @@ import ProjectsGrid from './ProjectsGrid';
 // Reference layout: first project tall-left, second wide-right, third tall-left, fourth wide-right
 // Using real Framer image URLs
 const projectImages = [
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/1bor-ser_uytk8d.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/2bor-ser_ss0lcl.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407436/3bor-ser_tv07z9.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777407437/4bor-ser_ijv6qi.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488413/ChatGPT_Image_Apr_30_2026_12_10_37_AM_au69kz.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda13_cctinr.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda_fvl4js.png",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488413/ChatGPT_Image_Apr_30_2026_12_16_06_AM_rpw8og.png",
   "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work05_aqdxpg.jpg",
 
 ];

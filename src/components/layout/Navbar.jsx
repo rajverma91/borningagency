@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navLinks = [
   { label: "WORK", path: "/work" },
   { label: "SERVICES", path: "/services" },
-  // { label: "PRICING", path: "/pricing" },
   { label: "ABOUT", path: "/about" },
   { label: "BLOG", path: "/blog" },
   { label: "CONTACT", path: "/contact" },
@@ -31,13 +30,18 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'
-      }`}>
+      <nav
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'
+        }`}
+      >
         <div className="max-full mx-auto px-6 md:px-10 flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className={`text-lg md:text-xl font-black tracking-tight transition-colors ${
-            !scrolled && isDarkPage ? 'text-white' : 'text-foreground'
-          }`}>
+          <Link
+            to="/"
+            className={`text-lg md:text-xl font-black tracking-tight transition-colors ${
+              !scrolled && isDarkPage ? 'text-white' : 'text-foreground'
+            }`}
+          >
             BORNING AGENCY
           </Link>
 
@@ -47,10 +51,13 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-xs font-medium tracking-wider transition-colors hover:text-primary ${
-                  location.pathname === link.path ? 'text-primary' : 
-                  !scrolled && isDarkPage ? 'text-white/80 hover:text-white' : 'text-muted-foreground'
-                }`}
+                className={`text-xs font-medium tracking-wider transition-colors ${
+                  location.pathname === link.path
+                    ? 'text-[#00cc65]'
+                    : !scrolled && isDarkPage
+                    ? 'text-white/80 hover:text-white'
+                    : 'text-muted-foreground'
+                } hover:text-[#00cc65]`}
               >
                 {link.label}
               </Link>
@@ -60,7 +67,9 @@ export default function Navbar() {
           {/* Mobile Toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className={`md:hidden p-2 ${!scrolled && isDarkPage ? 'text-white' : 'text-foreground'}`}
+            className={`md:hidden p-2 ${
+              !scrolled && isDarkPage ? 'text-white' : 'text-foreground'
+            }`}
           >
             {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
@@ -81,7 +90,7 @@ export default function Navbar() {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="text-2xl font-bold tracking-tight text-foreground hover:text-primary transition-colors"
+                  className="text-2xl font-bold tracking-tight text-foreground transition-colors hover:text-[#00cc65]"
                 >
                   {link.label}
                 </Link>
