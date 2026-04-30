@@ -17,7 +17,7 @@ function FAQItem({ item, index, isOpen, onToggle }) {
           </span>
 
           {/* Question text green */}
-          <span className="text-sm font-medium text-[#00cc65]">
+          <span className="text-sm font-medium text-[#000]">
             {item.question}
           </span>
         </span>
