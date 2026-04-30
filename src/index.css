@@ -365,7 +365,21 @@ html {
 .stats-left {
   flex: 1;
 }
+.hero-btn {
+  background-color: #16a34a; /* green */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+/* Hover Effect */
+.hero-btn:hover {
+  background-color: #0b662d;
+  color: #fff;
+}
 .stats-left h2 {
   font-size: clamp(28px, 3vw, 33px);
   line-height: 1.3;

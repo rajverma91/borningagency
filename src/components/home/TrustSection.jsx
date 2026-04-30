@@ -60,7 +60,7 @@ export default function TrustSection() {
             </div>
 
             <h4 className="text-2xl font-semibold mt-10">
-              Helped over <span className="text-white">100+</span> businesses
+              Helped over <span className="text-white">1000+</span> businesses
             </h4>
           </div>
         </AnimatedSection>
