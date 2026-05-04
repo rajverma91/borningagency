@@ -81,13 +81,23 @@ export default function Services() {
           <p className="mb-8">
             Let's discuss how we can help your business grow.
           </p>
+<Link
+  to="/contact"
+  className="relative inline-block px-8 py-3.5 rounded-full text-sm font-semibold 
+  text-[#00cc65] bg-white transition-all duration-300
+  shadow-lg hover:shadow-2xl hover:-translate-y-1 group overflow-hidden"
+>
+  <span className="relative z-10">Get in Touch</span>
 
-          <Link
-            to="/contact"
-            className="inline-block bg-white text-[#00cc65] px-8 py-3.5 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors"
-          >
-            Get in Touch
-          </Link>
+  {/* Animated Border Glow */}
+  <span className="absolute inset-0 rounded-full border-2 border-white/40"></span>
+
+  <span className="absolute inset-0 rounded-full border-2 border-transparent 
+    group-hover:border-white 
+    group-hover:shadow-[0_0_25px_rgba(255,255,255,0.8)] 
+    transition-all duration-300">
+  </span>
+</Link>
         </div>
       </AnimatedSection>
     </div>

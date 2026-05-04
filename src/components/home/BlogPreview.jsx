@@ -4,9 +4,9 @@ import { blogPosts } from '@/lib/siteData';
 import AnimatedSection from '../shared/AnimatedSection';
 
 const blogImages = [
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776190448/new-blog01_vkoopl.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776190447/new-blog02_bdwtdh.jpg",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776190447/new-blog03_q7k7kb.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194793/blogsingle01_tbmfbc.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194655/blogsingle02_wwuzhy.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776194656/blogsingle03_ezb5q1.jpg",
 ];
 
 export default function BlogPreview() {

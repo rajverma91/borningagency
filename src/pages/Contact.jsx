@@ -54,7 +54,7 @@ export default function Contact() {
                 <Mail className="text-[#00cc65]" />
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-semibold">info@borningagency.com</p>
+                  <p className="font-semibold">info@borning.co</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Contact() {
                 <Phone className="text-[#00cc65]" />
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-semibold">+91 99885 32819</p>
+                  <p className="font-semibold"> +91 8288833007</p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,14 @@ export default function Contact() {
                 <MapPin className="text-[#00cc65]" />
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-semibold">Punjab, India</p>
+                 <p>India: (Head Office)</p>
+                  <p className="font-semibold">
+Chandigarh, India</p>
+<p>Canada: (International Office)</p>
+                  <p className="font-semibold">
+1100 King Street West
+Toronto, Ontario M6K 1E6
+Canada</p>
                 </div>
               </div>
             </div>

@@ -62,9 +62,10 @@ export default function BlogPost() {
         </div>
 
         {/* Content */}
-        <p className="text-base text-muted-foreground leading-relaxed">
-  {post.description}
-</p>
+    <p
+  className="text-base text-muted-foreground leading-relaxed"
+  dangerouslySetInnerHTML={{ __html: post.description }}
+/>
 
         {/* Back CTA */}
         <div className="mt-16 pt-10 border-t border-border">

@@ -8,7 +8,7 @@ import ImageGallery from "../components/ImageGallery";
 const stats = [
   { value: "50", suffix: "+", label: "Years of experience" },
   { value: "80", suffix: "+", label: "Industry awards" },
-  { value: "970", suffix: "%", label: "Client satisfaction rate" },
+  { value: "99.9", suffix: "%", label: "Client satisfaction rate" },
   { value: "1000", suffix: "+", label: "Projects delivered" },
 ];
 

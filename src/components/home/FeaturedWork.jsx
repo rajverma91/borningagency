@@ -13,7 +13,7 @@ const projectImages = [
   "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda13_cctinr.png",
   "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488414/ddda_fvl4js.png",
   "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777488413/ChatGPT_Image_Apr_30_2026_12_16_06_AM_rpw8og.png",
-  "https://res.cloudinary.com/deydhfxgg/image/upload/v1776185307/featured-work05_aqdxpg.jpg",
+  "https://res.cloudinary.com/deydhfxgg/image/upload/q_auto/f_auto/v1777906283/ff_rhtkej.jpg",
 
 ];
 
