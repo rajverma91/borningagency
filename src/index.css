@@ -365,6 +365,9 @@ html {
 .stats-left {
   flex: 1;
 }
+.singlePost p {
+    margin: 6px 0;
+}
 .hero-btn {
   background-color: #16a34a; /* green */
   color: #fff;

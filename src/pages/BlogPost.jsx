@@ -63,7 +63,7 @@ export default function BlogPost() {
 
         {/* Content */}
     <p
-  className="text-base text-muted-foreground leading-relaxed"
+  className="text-base singlePost text-muted-foreground leading-relaxed"
   dangerouslySetInnerHTML={{ __html: post.description }}
 />
 
