@@ -451,6 +451,7 @@ html {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
+
   .stats-container {
     flex-direction: column;
   }
@@ -464,5 +465,20 @@ html {
   .stats-right .card {
     margin-left: 0 !important;
   }
+  .hero-btn-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stats {
+    background: #fff;
+    padding: 62px 9px;
+}
+.py-16 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 }
 
